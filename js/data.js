@@ -32,7 +32,10 @@ const MODULES = [
       {
         h: 'The first written descriptions',
         p: [
-          'The first clear medical description of measles was written by the Persian physician <strong>Abu Bakr Muhammad ibn Zakariyya al-Razi</strong>, known in the West as Rhazes (about 854–925 CE). In his book comparing smallpox and measles, he was the first to explain in writing how the two diseases differ — describing the rash, the fever that comes first, and other signs. That was careful, accurate work for his time.'
+          'The first clear medical description of measles was written by the Persian physician <strong>Abu Bakr Muhammad ibn Zakariyya al-Razi</strong>, known in the West as Rhazes (about 854–925 CE). In his book comparing smallpox and measles, he was the first to explain in writing how the two diseases differ — describing the rash, the fever that comes first, and other signs. That was careful, accurate work for his time.',
+          'Centuries later, doctors in Europe kept sharpening that picture. In <strong>1546</strong>, the Veronese physician <strong>Girolamo Fracastoro</strong> published a classic description of the illness. He suggested it spread through tiny invisible "seeds" — he called them <em>seminaria</em> — passed from one person to the next. That was a striking guess, more than 300 years before anyone could actually see a virus.',
+          'In <strong>1670</strong>, during a measles epidemic in London, the English physician <strong>Thomas Sydenham</strong> wrote a thorough, careful account of the disease as it played out in his patients. His work helped doctors tell measles apart from scarlet fever and smallpox — three illnesses that were often confused because they all cause fever and a rash.',
+          'The big proof that measles is truly infectious came in <strong>1757</strong>, when the Scottish doctor <strong>Francis Home</strong> ran an experiment. He took blood from people sick with measles and used it to give the disease to healthy people on purpose. When they came down with measles, it showed that something in the blood of a sick person could pass the disease along — direct evidence that measles is caused by an infectious agent.'
         ]
       }
     ],
@@ -41,6 +44,7 @@ const MODULES = [
       'An older estimate put the split in the 11th–12th century CE; the earlier date is now favored.',
       'Measles needs a population of about <strong>250,000–500,000</strong> people to keep spreading on its own.',
       'Rhazes (al-Razi) wrote the first clear description telling measles apart from smallpox, in the 9th–10th century CE.',
+      'In <strong>1757</strong>, Francis Home proved measles is infectious by passing it to healthy people using the blood of sick patients.',
       'Rinderpest was wiped out in 2011 — the only animal disease ever eliminated — leaving measles as the last of its kind.'
     ],
     sources: [
@@ -48,7 +52,11 @@ const MODULES = [
       { t: 'Furuse et al., Virology Journal (2010)', u: 'https://d-nb.info/1098729005/34' },
       { t: 'Black, Journal of Theoretical Biology (1966) — critical community size', u: 'https://andreashandel.github.io/IDEMAcourse/media/black66jtb.pdf' },
       { t: 'CDC — History of Measles', u: 'https://www.cdc.gov/measles/about/history.html' },
-      { t: 'Muslim Heritage — Al-Razi on Smallpox and Measles', u: 'https://muslimheritage.com/al-razi-smallpox-measles/' }
+      { t: 'Muslim Heritage — Al-Razi on Smallpox and Measles', u: 'https://muslimheritage.com/al-razi-smallpox-measles/' },
+      { t: 'SAMJ (2010) — early history of measles (Fracastoro, Sydenham)', u: 'https://scielo.org.za/scielo.php?script=sci_arttext&pid=S0256-95742010000400013' },
+      { t: 'Médecine et Maladies Infectieuses (2022) — Sydenham and the clinical description of measles', u: 'https://www.sciencedirect.com/science/article/abs/pii/S0755498222000422' },
+      { t: 'MSK Library Guides — History of Measles (Francis Home)', u: 'https://libguides.mskcc.org/publichealth/MeaslesHistory' },
+      { t: 'WHO — History of Measles Vaccination', u: 'https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-measles-vaccination' }
     ]
   },
   {
