@@ -271,7 +271,8 @@ const MODULES = [
     sources: [
       { t: 'WHO — Measles Fact Sheet (updated Nov 2025)', u: 'https://www.who.int/news-room/fact-sheets/detail/measles' },
       { t: 'WHO (2020) — worldwide measles deaths climb 50%', u: 'https://www.who.int/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019' },
-      { t: 'CDC — Measles Cases and Outbreaks (2025)', u: 'https://www.cdc.gov/measles/data-research/index.html' },
+      { t: 'CDC — Measles Cases and Outbreaks (final 2019 count of 1,274 and 2025 data)', u: 'https://www.cdc.gov/measles/data-research/index.html' },
+      { t: 'CDC MMWR (April 2025) — 2025 outbreak and first pediatric deaths since 2003', u: 'https://www.cdc.gov/mmwr/volumes/74/wr/mm7414a1.htm' },
       { t: 'Lancet (2024) — deaths averted by vaccination', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11140691/' },
       { t: 'KFF — Measles elimination status', u: 'https://www.kff.org/other-health/measles-elimination-status-what-it-is-and-how-the-u-s-could-lose-it/' }
     ]
@@ -289,7 +290,7 @@ const MODULES = [
       {
         h: 'Isolating the virus (1954)',
         p: [
-          'The story begins in the winter of 1953–54 at Fay School in Southborough, Massachusetts, during a measles outbreak. <strong>John Franklin Enders</strong> — the 1954 Nobel Laureate for showing poliovirus could be grown in non-neural tissue culture — sent his trainee <strong>Thomas C. Peebles</strong> to collect samples. Peebles obtained blood from an 11-year-old named <strong>David Edmonston</strong> and successfully cultured the measles virus. That isolate, the <strong>Edmonston strain</strong>, became the genetic progenitor of virtually every live-attenuated measles vaccine since.'
+          'The story begins in the winter of 1953–54 at Fay School in Southborough, Massachusetts, during a measles outbreak. <strong>John Franklin Enders</strong> — the 1954 Nobel Laureate for showing poliovirus could be grown in non-neural tissue culture — sent his trainee <strong>Thomas C. Peebles</strong> to collect samples. Peebles obtained blood from an 11-year-old named <strong>David Edmonston</strong> and successfully cultured the measles virus. (Contemporary accounts and Edmonston\'s own recollection give his age as 11, though some later sources say 13.) That isolate, the <strong>Edmonston strain</strong>, became the genetic progenitor of virtually every live-attenuated measles vaccine since.'
         ]
       },
       {
@@ -330,6 +331,8 @@ const MODULES = [
       { t: 'CDC — History of Measles', u: 'https://www.cdc.gov/measles/about/history.html' },
       { t: 'WHO — History of Measles Vaccination', u: 'https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-measles-vaccination' },
       { t: 'National Academies — Maurice Hilleman biographical memoir', u: 'https://www.nasonline.org/wp-content/uploads/2024/06/hilleman-maurice.pdf' },
+      { t: 'Los Angeles Times (2010) — Thomas Peebles obituary (David Edmonston, age 11)', u: 'https://www.latimes.com/local/obituaries/la-me-thomas-peebles-20100813-story.html' },
+      { t: 'PBS NewsHour (2025) — David Edmonston recalls being 11 at the time', u: 'https://www.pbs.org/newshour/show/man-whose-blood-helped-develop-measles-vaccine-weighs-in-on-recent-outbreak' },
       { t: 'BMJ (2011) — Wakefield\u2019s article was fraudulent', u: 'https://www.bmj.com/content/342/bmj.c7452' },
       { t: 'Indian Journal of Psychiatry (2011) — the Wakefield affair', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3136032/' }
     ]
