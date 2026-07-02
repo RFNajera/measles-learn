@@ -262,10 +262,10 @@
       Progress.setQuiz(id, st.correct, total);
       const pct = Math.round((st.correct / total) * 100);
       const msg =
-        pct === 100 ? 'Perfect score! You\u2019ve mastered this module.' :
-        pct >= 75 ? 'Great work — a strong understanding of the material.' :
-        pct >= 50 ? 'Good effort. A quick review will lock it in.' :
-        'Worth another read — revisit the module and try again.';
+        pct === 100 ? 'Perfect score. You really know this one.' :
+        pct >= 75 ? 'Nice work. You\u2019ve got a solid grip on this.' :
+        pct >= 50 ? 'Good start. A quick reread will fill in the gaps.' :
+        'Give the lesson another read, then come back and try again.';
       const circ = 2 * Math.PI * 52;
       const off = circ * (1 - st.correct / total);
       card.innerHTML = `

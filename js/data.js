@@ -9,39 +9,39 @@ const MODULES = [
     id: 'origins',
     num: 1,
     title: 'Origins & Emergence',
-    subtitle: 'How a cattle plague became a human disease',
+    subtitle: 'How a cattle disease became a human one',
     icon: 'origin',
     summary:
-      'Trace measles from its evolutionary split with rinderpest to the first written descriptions by Rhazes — and learn why big cities were a prerequisite for the virus to survive.',
+      'Where measles came from: how it split off from a cattle virus, why it needed big cities to survive, and who first described it in writing.',
     readingMinutes: 6,
     sections: [
       {
         h: 'Evolutionary origins and the rinderpest connection',
         p: [
-          'Measles is a uniquely human disease with deep roots in the livestock-dense agricultural societies of the ancient world. The measles virus (MeV) belongs to the genus <em>Morbillivirus</em>, and its closest known relative is the rinderpest virus (RPV), a devastating cattle pathogen officially eradicated in 2011. The scientific consensus is that measles arose from a spillover event — a zoonotic jump in which an ancestral cattle-infecting virus crossed into humans and adapted to sustained person-to-person transmission.',
-          'For decades, scientists placed the measles–rinderpest split in the 11th–12th century CE. A 2010 molecular-clock study estimated divergence around 1074–1171 CE. But a methodologically superior 2020 study in <em>Science</em> sequenced a 1912 measles genome — the oldest human RNA virus genome ever recovered — and pushed the divergence back dramatically to a mean estimate of <strong>528 BCE</strong>. That earlier date aligns with the rise of large, interconnected cities across Eurasia.'
+          'Measles only infects people, but it did not start with us. Its closest relative is <strong>rinderpest</strong>, a cattle disease that vaccines wiped out completely in 2011. Both belong to a family of viruses called <em>Morbillivirus</em>. Most scientists think measles began when an ancestor of the rinderpest virus jumped from animals into humans — a "spillover" — and then changed until it could spread easily from person to person.',
+          'For a long time, researchers thought that jump happened around the 11th or 12th century CE. A 2010 study using a "molecular clock" (a way to estimate age from how much a virus\'s genes have changed) put it around 1074–1171 CE. Then a 2020 study in <em>Science</em> read the genes of a measles sample saved from 1912 — the oldest human RNA virus ever decoded — and pushed the date back much further, to roughly <strong>528 BCE</strong>. That fits the time when large, connected cities were first growing across Europe and Asia.'
         ]
       },
       {
-        h: 'The critical community size threshold',
+        h: 'Why measles needs a crowd',
         p: [
-          'Measles cannot sustain itself in small populations. Because natural infection confers lifelong immunity, the virus must continually find new susceptible people — mostly newborns — to keep circulating. Below a certain population threshold, measles burns through the available susceptibles and goes locally extinct, returning only via importation.',
-          'The epidemiologist F.L. Black identified a <strong>critical community size</strong> of roughly 250,000–500,000 people needed for measles to persist endemically. This biological constraint is itself a clue about origins: such large, dense, connected populations did not exist before early civilizations, so the virus could not establish sustained human transmission until settlements of sufficient scale emerged.'
+          'Measles cannot survive in a small group of people. Once you catch measles and recover, you are protected for life. So the virus constantly needs new people who have never had it — mostly newborns — to keep spreading. In a small town it quickly runs out of people to infect and dies out, until someone brings it back from somewhere else.',
+          'The epidemiologist F.L. Black worked out roughly how big a population has to be for measles to stick around on its own: about <strong>250,000 to 500,000 people</strong>. This is also a clue about where measles came from. Groups that large did not exist until the first cities, so measles could not have settled into humans until those cities appeared.'
         ]
       },
       {
-        h: 'The earliest written descriptions',
+        h: 'The first written descriptions',
         p: [
-          'The first clinically recognizable account of measles comes from the Persian physician <strong>Abu Bakr Muhammad ibn Zakariyya al-Razi</strong> — known in the West as Rhazes (c. 854–925 CE). In his treatise <em>A Treatise on Smallpox and Measles</em>, Rhazes provided the first written distinction between measles and smallpox, describing the rash, prodromal fever, and clinical differences with remarkable precision for his era.'
+          'The first clear medical description of measles was written by the Persian physician <strong>Abu Bakr Muhammad ibn Zakariyya al-Razi</strong>, known in the West as Rhazes (about 854–925 CE). In his book comparing smallpox and measles, he was the first to explain in writing how the two diseases differ — describing the rash, the fever that comes first, and other signs. That was careful, accurate work for his time.'
         ]
       }
     ],
     keyFacts: [
-      'Measles virus diverged from rinderpest (a cattle pathogen) around <strong>528 BCE</strong> (95% CI: 1174 BCE–165 CE), per a 2020 molecular-clock analysis of a 1912 viral genome.',
-      'An older estimate placed divergence in the 11th–12th century CE; current consensus favors the earlier date.',
-      'Measles needs a <strong>critical community size of ~250,000–500,000</strong> people to persist endemically.',
-      'Rhazes (al-Razi) authored the first clinical description distinguishing measles from smallpox in the 9th–10th century CE.',
-      'Rinderpest was eradicated in 2011 — the only animal disease ever eradicated — leaving measles as the sole survivor of a once-shared viral lineage.'
+      'Measles split off from rinderpest (a cattle virus) around <strong>528 BCE</strong>, based on a 2020 study of a measles sample from 1912.',
+      'An older estimate put the split in the 11th–12th century CE; the earlier date is now favored.',
+      'Measles needs a population of about <strong>250,000–500,000</strong> people to keep spreading on its own.',
+      'Rhazes (al-Razi) wrote the first clear description telling measles apart from smallpox, in the 9th–10th century CE.',
+      'Rinderpest was wiped out in 2011 — the only animal disease ever eliminated — leaving measles as the last of its kind.'
     ],
     sources: [
       { t: 'Düx et al., Science (2020) — measles–rinderpest divergence', u: 'https://www.science.org/doi/10.1126/science.aba9411' },
@@ -55,52 +55,53 @@ const MODULES = [
     id: 'virology',
     num: 2,
     title: 'Virology',
-    subtitle: 'Structure, receptors, and immune amnesia',
+    subtitle: 'What the virus is made of, and how it hijacks the body',
     icon: 'virus',
     summary:
-      'Understand the measles genome, its H and F glycoproteins, the two receptors (SLAM/CD150 and nectin-4) it exploits, why there is only one serotype, and the startling phenomenon of immune amnesia.',
+      'What measles is built from, the two “doors” it uses to get into your cells, why one vaccine still works after 60 years, and how measles erases the immune system’s memory.',
     readingMinutes: 7,
     sections: [
       {
-        h: 'Classification and genome',
+        h: 'What measles is made of',
         p: [
-          '<em>Measles morbillivirus</em> (MeV) belongs to the family <strong>Paramyxoviridae</strong>, which also includes mumps, parainfluenza, Nipah, and canine distemper viruses. It is an enveloped, pleomorphic virion roughly 100–300 nm across. Its genome is a <strong>single-stranded, negative-sense, non-segmented RNA</strong> molecule of about 15.9 kilobases.',
-          'Being negative-sense means the genome cannot be translated directly — the virus must first transcribe it into positive-sense messenger RNA using its own RNA-dependent RNA polymerase (the L protein). The genome encodes six structural proteins (N, P, M, F, H, L) and two non-structural immune-evasion proteins (V and C).'
+          'Measles is in the same virus family (called <strong>Paramyxoviridae</strong>) as mumps and a few animal diseases. The virus is a tiny ball wrapped in a fatty outer coat, about 100–300 nanometers wide — you could line up roughly 400 of them across the width of a human hair.',
+          'Its instructions are stored in <strong>RNA</strong> rather than DNA. That RNA is “backwards” (scientists call it negative-sense), so the virus cannot use it directly. First it has to flip the RNA into a readable form using a copying tool it carries with it. In all, its genes code for eight proteins — six that build the virus and two that help it dodge the immune system.'
         ]
       },
       {
-        h: 'Surface glycoproteins: H and F',
+        h: 'The two proteins on its surface: H and F',
         p: [
-          'The two membrane glycoproteins, <strong>H (hemagglutinin)</strong> and <strong>F (fusion)</strong>, are the critical outer features and the primary targets of neutralizing antibodies. The H protein mediates receptor binding, attaching the virus to specific surface molecules on host cells. Receptor engagement then triggers the F protein to fuse the viral envelope with the host membrane, delivering the nucleocapsid into the cytoplasm.'
+          'Two proteins stick out from the virus’s surface, and they do most of the work of infecting you. The <strong>H protein</strong> is the grappling hook — it latches onto the outside of one of your cells. Once it grabs on, the <strong>F protein</strong> pulls the virus and the cell together and fuses them, letting the virus slip its genes inside. These same two proteins are the main targets your antibodies learn to recognize, which is why they matter for the vaccine.'
         ]
       },
       {
-        h: 'Two receptors, two entry pathways',
+        h: 'The two “doors” it uses to get in',
         p: [
-          '<strong>SLAM (CD150)</strong> is expressed on immune cells — dendritic cells, macrophages, and activated T and B cells — and is MeV\'s primary receptor during the initial respiratory phase. Crucially, memory T cells express more CD150 than naïve T cells, making them disproportionately vulnerable.',
-          '<strong>Nectin-4</strong> is expressed on the basolateral surface of airway epithelial cells. After amplifying within the lymphoid system, MeV spreads to nectin-4-expressing epithelium, from which infectious virions are shed into the airway and expelled by coughing and sneezing — completing the transmission chain.'
+          'A virus can only enter a cell if that cell has a matching “door” (a receptor) on its surface. Measles uses two. The first door, called <strong>SLAM</strong>, sits on immune cells — the very cells meant to fight infection. Measles targets them first. The immune system’s long-term memory cells carry extra copies of this door, which is why measles hits them especially hard (more on that below).',
+          'The second door, called <strong>nectin-4</strong>, sits on the cells lining your airway. After the virus multiplies in your immune system, it moves to these airway cells. From there, fresh virus is coughed and sneezed into the air — ready to infect the next person.'
         ]
       },
       {
-        h: 'The single-serotype advantage',
+        h: 'Why one measles vaccine still works after 60 years',
         p: [
-          'Unlike influenza, which evolves new surface antigens annually, MeV has only <strong>one serotype</strong>. Despite circulating as 24 genotypes, its H and F proteins have stayed antigenically stable for over a century. Neutralizing antibodies raised against the 1954 Edmonston strain still neutralize all current wild-type strains — which is exactly why 1960s vaccines remain effective today without reformulation.'
+          'The flu virus changes its surface every year, which is why you need a new flu shot each season. Measles does not do this. To your immune system, measles has essentially looked the same for over a century. Antibodies made against the measles strain isolated in 1954 still block the measles spreading today. That is the reason a vaccine designed in the 1960s still protects people now, with no need to update it.'
         ]
       },
       {
-        h: 'Immune amnesia',
+        h: 'How measles erases immune memory',
         p: [
-          'One of measles\' most alarming properties is <strong>immune amnesia</strong> — the destruction of preexisting immunological memory. Because MeV uses CD150, and memory T cells carry more of it, measles preferentially infects and destroys memory lymphocytes. A 2019 <em>Science</em> study using VirScan found measles eliminated <strong>11%–73%</strong> of a child\'s total antibody pool, wiping out years of accumulated immunity. This suppression typically lasts 2–3 years, with some studies documenting elevated infection risk for up to five years. Critically, the MMR vaccine does <strong>not</strong> cause immune amnesia — it builds immunity without depleting memory cells.'
+          'Here is one of the most surprising and dangerous facts about measles: it can erase your immune system’s memory. Your body remembers past infections through special memory cells, so it can fight the same germ faster next time. Because measles attacks these memory cells, it wipes out protection you had already built up.',
+          'A 2019 study in <em>Science</em> measured this directly. After a measles infection, children lost between <strong>11% and 73%</strong> of the antibodies they had built up against other germs — years of protection, gone. This leaves them open to infections they had already beaten before, and the effect can last two to three years (some studies say up to five). One more thing worth being clear about: the MMR vaccine does <strong>not</strong> do this. The vaccine builds immunity without destroying memory cells.'
         ]
       }
     ],
     keyFacts: [
-      'MeV is a <strong>negative-sense, single-stranded RNA virus</strong> in the family Paramyxoviridae, genus <em>Morbillivirus</em>.',
-      'The H protein binds SLAM/CD150 (immune cells) and nectin-4 (epithelial cells); the F protein mediates membrane fusion.',
-      'MeV has <strong>only one serotype</strong>, so 1960s vaccines still protect against all circulating strains.',
-      '<strong>Immune amnesia</strong> can erase 11–73% of a person\'s antibody repertoire and last 2–3 years.',
-      'Memory T cells are more vulnerable than naïve T cells because they express more CD150.',
-      'The ~15.9 kb genome encodes 6 structural proteins (N, P, M, F, H, L) plus V and C.'
+      'Measles stores its instructions in <strong>RNA</strong>, not DNA, and wraps itself in a fatty coat.',
+      'It gets into cells using two “doors”: <strong>SLAM</strong> on immune cells and <strong>nectin-4</strong> on airway cells.',
+      'Measles barely changes over time, so a vaccine from the 1960s still works against today’s virus.',
+      '<strong>Immune amnesia</strong>: measles can erase 11–73% of the antibodies you built up against other germs, for 2–3 years.',
+      'The MMR vaccine builds immunity <strong>without</strong> causing this memory loss.',
+      'The H and F proteins on the surface are what your antibodies learn to target.'
     ],
     sources: [
       { t: 'PHAC — Measles Virus Pathogen Safety Data Sheet', u: 'https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity/pathogen-safety-data-sheets-risk-assessment/measles-virus.html' },
@@ -114,52 +115,54 @@ const MODULES = [
     id: 'clinical',
     num: 3,
     title: 'Clinical Disease & Societal Impact',
-    subtitle: 'Symptoms, transmission, complications, and history',
+    subtitle: 'What measles does to the body, and how it spreads',
     icon: 'clinical',
     summary:
-      'Follow measles from exposure to rash, understand why an R\u2080 of 12–18 makes it one of the most contagious diseases known, and survey its complications — from pneumonia to the fatal SSPE.',
+      'What measles looks like from exposure to rash, why it spreads faster than almost any other disease, and the serious problems it can cause — from pneumonia to a rare brain disease that is always fatal.',
     readingMinutes: 7,
     sections: [
       {
-        h: 'Disease progression: from exposure to rash',
+        h: 'From exposure to rash, step by step',
         p: [
-          'Measles follows a predictable course. After exposure, a symptom-free <strong>incubation period</strong> of about 10–12 days (range 7–21) passes. The illness then opens with the <strong>prodrome</strong> — a 2–4 day symptomatic phase marked by high fever (often 103–105°F) and the classic triad of cough, coryza (runny nose), and conjunctivitis: the "three C\'s." Infectivity peaks during this prodrome, before the tell-tale rash appears, making containment difficult.',
-          'A pathognomonic early sign is <strong>Koplik spots</strong> — tiny blue-white lesions on the inner cheek, appearing 1–2 days before the rash. The maculopapular rash then erupts on the face and hairline and spreads downward over 3–5 days. A patient is infectious from 4 days before to 4 days after rash onset.'
+          'Measles usually follows the same pattern. First comes a quiet stretch — about 10 to 12 days after you are exposed — when you feel fine and have no symptoms. Doctors call this the incubation period. Then the illness starts with a high fever (often 103–105°F) plus a cough, a runny nose, and red, watery eyes. A memory aid is the “three C’s”: cough, coryza (runny nose), and conjunctivitis (pink eye). This is also when the person is most contagious — before the rash even shows up, which makes measles hard to catch in time.',
+          'A day or two before the rash, tiny blue-white spots (called <strong>Koplik spots</strong>) may appear inside the cheeks — a sign that points strongly to measles. The rash then starts on the face and spreads down the body over 3 to 5 days. A person can spread measles from 4 days before the rash to 4 days after it appears.'
         ]
       },
       {
-        h: 'Exceptional transmissibility: an R\u2080 of 12–18',
+        h: 'One of the most contagious diseases there is',
         p: [
-          'Measles is one of the most contagious diseases ever documented. Its <strong>basic reproduction number (R\u2080) is 12–18</strong> — a single case generates 12 to 18 secondary cases in a fully susceptible population. For comparison, seasonal flu is 1–2 and original SARS-CoV-2 was about 2–3.',
-          'Measles spreads through the air: infectious aerosols can linger for up to <strong>2 hours</strong> after an infected person leaves a room. Up to 9 of 10 susceptible people sharing that airspace will become infected.'
+          'Measles spreads more easily than almost any other disease. If one person has measles and everyone around them is unprotected, that one person will infect <strong>12 to 18 others</strong> on average. For comparison, regular flu spreads to about 1 or 2 people, and the original COVID-19 virus to about 2 or 3. So measles spreads roughly ten times more easily than the flu.',
+          'It travels through the air. The virus can hang in a room for up to <strong>2 hours</strong> after an infected person has left. If unprotected people breathe that air, about <strong>9 out of 10</strong> of them will catch it. You do not have to touch anyone — sharing the same room is enough.'
         ]
       },
       {
-        h: 'Complications',
+        h: 'Measles is more than a rash',
         p: [
-          'Measles is far more than a rash. <strong>Pneumonia</strong> is the most common cause of measles death (1–6% of cases). <strong>Encephalitis</strong> strikes about 1 in 1,000 cases, killing 10–15% and leaving 20–40% of survivors with neurological damage. <strong>Otitis media</strong> (7–9%) is a leading cause of preventable hearing loss, and corneal damage with vitamin A deficiency causes preventable blindness in low-income settings. Case fatality is 1–3 per 1,000 in high-income countries, but can reach 10–25% in malnourished populations during outbreaks.'
+          'Measles can cause serious problems, and they are more common than many people expect. <strong>Pneumonia</strong> (a lung infection) is the main cause of measles deaths. <strong>Swelling of the brain</strong>, called encephalitis, happens in about 1 in every 1,000 people who get measles; it can be deadly, and many survivors are left with lasting brain damage. Measles also causes ear infections in about 7 to 9 out of every 100 cases, which can lead to permanent hearing loss, and it can cause blindness where children are also short on vitamin A.',
+          'How often measles kills depends heavily on where you are. In wealthy countries, roughly 1 to 3 of every 1,000 people who get measles die. In places with widespread malnutrition and little access to care, that number can climb to 100–250 of every 1,000 during an outbreak. The disease is the same; the difference is access to food, care, and vaccines.'
         ]
       },
       {
-        h: 'Subacute sclerosing panencephalitis (SSPE)',
+        h: 'A rare brain disease that shows up years later',
         p: [
-          'Among measles\' most feared complications is <strong>SSPE</strong> — a uniformly fatal, progressive brain disease caused by a persistent, hypermutated measles infection. It strikes 7–10 years (sometimes decades) after an apparently ordinary infection. Children infected before age 2 face dramatically elevated risk. SSPE begins with subtle behavioral decline, progresses through seizures and coma, and is always fatal, usually within 1–3 years of onset.'
+          'There is one measles complication that is rare but always fatal. It is called <strong>SSPE</strong> (short for subacute sclerosing panencephalitis). In some people, the measles virus quietly stays in the brain and, 7 to 10 years later — sometimes even decades — causes the brain to break down. It starts with small changes in behavior and thinking, then leads to seizures, coma, and death, usually within 1 to 3 years. Children who catch measles before age 2 are at the highest risk. Because it appears so long after the original illness, families often do not connect it back to the measles infection.'
         ]
       },
       {
-        h: 'Impact on immunologically naïve populations',
+        h: 'When measles reaches people who have never seen it',
         p: [
-          'The concept of <strong>virgin-soil epidemics</strong> reveals measles at its most lethal. In the Faroe Islands (1846), measles returned after a 65-year absence and affected nearly the entire population. The 1875 Fiji epidemic killed roughly a quarter of the population within months. Among Indigenous peoples of the Americas, measles drove catastrophic collapses. This differential mortality reflected no prior immunity, poverty, crowding, and a lack of health infrastructure — not any inherent biological vulnerability.'
+          'Measles is deadliest when it reaches a population that has never been exposed to it, so no one has any immunity. Historians call these “virgin-soil” epidemics. In the Faroe Islands in 1846, measles came back after 65 years away and infected nearly everyone. In Fiji in 1875, it killed about one in four people within months. Measles also played a large part in the collapse of Indigenous populations in the Americas.',
+          'It is worth being clear about why these death tolls were so high. It was not that these groups were biologically weaker. It was that no one had immunity, and the deaths were made worse by poverty, crowding, and no medical care during the outbreak. The same conditions still make measles more deadly in some places today.'
         ]
       }
     ],
     keyFacts: [
-      'Prodrome: fever, cough, coryza, conjunctivitis ("three C\'s"), with <strong>Koplik spots</strong> appearing 1–2 days before the rash.',
-      '<strong>R\u2080 of 12–18</strong> — one of the highest of any pathogen; aerosols persist up to 2 hours in a room.',
-      '<strong>SSPE</strong> occurs in ~1 in 25,000–100,000 cases overall (far higher in infants) and is uniformly fatal.',
-      'Case fatality is 1–3 per 1,000 in high-income settings, far higher where malnutrition is common.',
-      'Immune amnesia extends the disease burden for years after the acute illness.',
-      'Virgin-soil epidemics (Fiji 1875, Indigenous Americas) had case fatality many times higher than in populations with herd immunity.'
+      'Early signs are fever plus the “three C’s” (cough, runny nose, pink eye); tiny <strong>Koplik spots</strong> may appear in the mouth 1–2 days before the rash.',
+      'Measles spreads to <strong>12–18</strong> unprotected people per case — about ten times more than the flu — and lingers in the air for up to 2 hours.',
+      '<strong>SSPE</strong> is a rare brain disease (roughly 1 in 25,000–100,000 cases, higher in infants) that appears years later and is always fatal.',
+      'In wealthy countries, 1–3 of every 1,000 people with measles die; the toll is far higher where malnutrition is common.',
+      'By erasing immune memory, measles leaves people open to other infections for years afterward.',
+      'When measles reaches people with no prior immunity, far more of them die — driven by no immunity, poverty, and lack of care.'
     ],
     sources: [
       { t: 'CDC — Clinical Overview of Measles', u: 'https://www.cdc.gov/measles/hcp/clinical-overview/index.html' },
@@ -173,44 +176,46 @@ const MODULES = [
     id: 'epi-past',
     num: 4,
     title: 'Epidemiology — Past',
-    subtitle: 'The pre-vaccine burden and founding studies',
+    subtitle: 'What measles did before the vaccine',
     icon: 'past',
     summary:
-      'Examine the staggering pre-vaccine burden (3–4 million U.S. cases a year), the 2–3 year epidemic cycles, and the landmark investigations of Panum in the Faroe Islands and the 1875 Fiji catastrophe.',
+      'Before 1963, nearly every child caught measles. Here is what that cost — 3 to 4 million U.S. cases a year — plus two early studies that taught us how the disease works.',
     readingMinutes: 6,
     sections: [
       {
-        h: 'Pre-vaccine burden in the United States',
+        h: 'What measles cost the U.S. before 1963',
         p: [
-          'Before the 1963 vaccine, measles was so ubiquitous that nearly every American child caught it. By age 15, roughly <strong>95% of the population</strong> had been infected, with an estimated <strong>3–4 million cases per year</strong> (only ~500,000 reported due to massive underreporting). Each year in the decade before the vaccine, measles caused roughly <strong>400–500 deaths</strong>, 48,000 hospitalizations, and 1,000 cases of encephalitis with permanent disability.'
+          'Before the vaccine arrived in 1963, measles was almost a rite of passage: nearly every American child caught it by age 15. That meant an estimated <strong>3 to 4 million cases every year</strong>. (Only about 500,000 were officially reported, because measles was so common that most families never bothered to report it.)',
+          'These were not harmless cases. In a typical year in that era, measles caused about <strong>400 to 500 deaths</strong>, sent 48,000 people to the hospital, and left about 1,000 with permanent brain damage from swelling of the brain. “Everyone gets it” did not mean it was safe.'
         ]
       },
       {
-        h: 'Epidemic cycles and seasonality',
+        h: 'Why outbreaks came in waves',
         p: [
-          'In the pre-vaccine era, measles showed regular dynamics: large cities saw <strong>2-to-3-year epidemic cycles</strong>, driven by the accumulation of newly susceptible newborns. Outbreaks peaked in late winter and early spring, tied to school aggregation. In communities below the critical community size, the virus burned out and re-entered only by importation. Globally, measles killed an estimated <strong>2.6 million people per year</strong> before widespread vaccination.'
+          'Before the vaccine, measles came back in big cities on a regular schedule — a large outbreak roughly every <strong>2 to 3 years</strong>. The reason is simple: after an outbreak, most kids who could catch measles already had. It took a couple of years for enough new babies to be born to give the virus fresh people to infect, and then it surged again. Outbreaks usually peaked in late winter and early spring, when children were packed together in school.',
+          'Worldwide, the toll was staggering. Before vaccines were widely used, measles killed an estimated <strong>2.6 million people a year</strong>, most of them young children.'
         ]
       },
       {
-        h: 'The Faroe Islands study (Panum, 1846)',
+        h: 'The Faroe Islands, 1846: an early detective story',
         p: [
-          'The 1846 Faroe Islands epidemic produced one of medicine\'s most important investigations. Peter Ludwig Panum, a young Danish physician, documented that the <strong>incubation period</strong> was consistently 13–14 days, that survivors of the previous 1781 epidemic were <strong>fully protected</strong> (proving lifelong immunity), and that the disease spread by close personal contact. Panum\'s work remains a clear demonstration of herd immunity and incubation-period estimation, achieved entirely through field observation with no knowledge of virology.'
+          'When measles swept the Faroe Islands in 1846, a young Danish doctor named Peter Ludwig Panum went to study it — and figured out several things we still teach today. He found that people got sick about 13 to 14 days after being exposed (the incubation period). He noticed that older residents who had survived the last measles outbreak, back in 1781, did not get sick again — proof that measles gives lifelong protection. And he showed it spread through close contact between people. He worked all this out just by careful observation, decades before anyone even knew viruses existed.'
         ]
       },
       {
-        h: 'The 1875 Fiji epidemic',
+        h: 'Fiji, 1875: a disaster in a few months',
         p: [
-          'Few events illustrate measles\' destructive power more starkly. When Fiji\'s King Cakobau returned from Australia in 1875, measles came with the ship and spread through a population that had never encountered it. Estimates put the death toll at <strong>25,000–40,000 Fijians</strong> — roughly a quarter of the population — within months. The severity was compounded by the simultaneous infection of entire families and the collapse of food production when whole villages fell ill at once.'
+          'In 1875, Fiji’s king and his party returned from a trip to Australia, and measles came back with them on the ship. No one in Fiji had ever been exposed, so no one was protected. Within a few months, an estimated <strong>25,000 to 40,000 people died</strong> — about one in four Fijians. Part of what made it so deadly: whole families and villages fell sick at the same time, so there was no one well enough to bring water, food, or care. When everyone is ill at once, an outbreak becomes far more dangerous.'
         ]
       }
     ],
     keyFacts: [
-      'Pre-vaccine U.S. burden: ~3–4 million infections and 400–500 deaths per year.',
-      'Urban measles followed <strong>2–3 year cycles</strong> driven by susceptible birth cohorts.',
-      'Globally, measles killed an estimated <strong>2.6 million people per year</strong> before vaccination.',
-      'Panum\'s 1846 Faroe Islands study confirmed a 13–14-day incubation period and lifelong immunity.',
-      'The 1875 Fiji epidemic killed ~25,000–40,000 people — about a quarter of the population.',
-      'In the first decade of U.S. reporting (after 1912), ~6,000 measles deaths were recorded annually.'
+      'Before the 1963 vaccine, the U.S. had about <strong>3–4 million measles cases</strong> and 400–500 deaths every year.',
+      'Big cities had a large measles outbreak roughly every <strong>2–3 years</strong>, as new babies replaced those already immune.',
+      'Worldwide, measles killed about <strong>2.6 million people a year</strong> before vaccines were common.',
+      'In 1846, Dr. Panum used the Faroe Islands outbreak to show measles has a 13–14-day incubation period and gives lifelong protection.',
+      'The 1875 Fiji outbreak killed about <strong>25,000–40,000 people</strong> — roughly one in four — in a few months.',
+      'In the first decade after U.S. reporting began (1912), about 6,000 measles deaths were recorded each year.'
     ],
     sources: [
       { t: 'CDC — History of Measles', u: 'https://www.cdc.gov/measles/about/history.html' },
@@ -223,50 +228,53 @@ const MODULES = [
     id: 'epi-current',
     num: 5,
     title: 'Epidemiology — Current',
-    subtitle: 'Resurgence, herd immunity, and 2025',
+    subtitle: 'Why measles is coming back',
     icon: 'current',
     summary:
-      'See how declining vaccination has driven a global resurgence, why 95% coverage is the magic number, and how the 2025 U.S. outbreak became the worst since 1992.',
+      'Why about 95% of people need to be vaccinated, how measles surged worldwide when that slipped, and how the 2025 U.S. outbreak became the worst in over 30 years.',
     readingMinutes: 7,
     sections: [
       {
-        h: 'The herd immunity threshold',
+        h: 'Why the magic number is about 95%',
         p: [
-          'Because measles is so transmissible (R\u2080 of 12–18), the <strong>herd immunity threshold</strong> is correspondingly high — about 92–95%. Using p_c = 1 − (1/R\u2080), an R\u2080 of 15 requires at least 93.3% immunity. In practice, <strong>vaccination coverage must exceed 95%</strong> to maintain elimination, accounting for non-responders and those too young or immunocompromised to vaccinate. Any dip below this threshold — even in a small cluster — creates conditions for rapid resurgence.'
+          'Because measles spreads so easily, you need a very high share of people protected to stop it. This is called <strong>herd immunity</strong>: when enough people are immune, the virus runs out of people to infect and cannot spread, which also shields babies and others who cannot be vaccinated.',
+          'For measles, that share is about <strong>95%</strong> — higher than for almost any other disease. That leaves very little room for error, since a few people will not respond to the vaccine and some are too young or too sick to get it. When coverage slips below 95%, even in one town or one school, measles can come roaring back.'
         ]
       },
       {
-        h: 'Global resurgence: 2017–2019',
+        h: 'Measles surged back worldwide, 2017–2019',
         p: [
-          'After reaching a historic low in 2016 (~132,490 reported cases), measles staged a dramatic comeback. Reported cases rose <strong>556%</strong> by 2019 to <strong>869,770 confirmed cases</strong> — the highest since 1996 — with an estimated <strong>207,500 deaths</strong>. Devastating outbreaks hit the Democratic Republic of Congo, Madagascar, Samoa, Ukraine, and the Philippines. The root cause everywhere was a failure to vaccinate.'
+          'In 2016, reported measles cases hit a record low of about 132,000 worldwide. Then they shot back up. By 2019, reported cases had jumped to about <strong>869,770</strong> — more than six times higher — the most since 1996, with an estimated <strong>207,500 deaths</strong>. Large outbreaks hit the Democratic Republic of Congo, Madagascar, Samoa, Ukraine, and the Philippines. In every case the cause was the same: not enough people were vaccinated.'
         ]
       },
       {
-        h: 'Threat to U.S. elimination status',
+        h: 'The U.S. nearly lost its “measles-free” status',
         p: [
-          'The U.S. declared measles <strong>eliminated in 2000</strong>. But in 2019, prolonged outbreaks in undervaccinated communities in New York drove <strong>1,274 confirmed cases</strong> across 31 states — the highest since 1992 — nearly costing the country its elimination status. About 89% of those affected were unvaccinated or of unknown status.'
+          'The U.S. declared measles <strong>eliminated in 2000</strong>, meaning it was no longer spreading on its own here. But “eliminated” does not mean gone forever — it can return whenever coverage drops. In 2019, long outbreaks in a few under-vaccinated communities in New York drove <strong>1,274 cases</strong> across 31 states, the most since 1992. The U.S. came close to losing its measles-free status. About 89% of the people who got sick were unvaccinated or had no vaccination record.'
         ]
       },
       {
-        h: 'Current global burden (2024)',
+        h: 'Where things stand worldwide (2024)',
         p: [
-          'As of the most recent WHO estimates for <strong>2024</strong>, there were roughly <strong>95,000 measles deaths</strong> globally, with first-dose coverage at 84% and two-dose at 76% — both below the 95% target. Yet measles vaccination has been extraordinarily effective: it is estimated to have <strong>averted nearly 59 million deaths between 2000 and 2024</strong>, the single greatest contributor among all vaccine-preventable diseases.'
+          'The most recent WHO numbers, for <strong>2024</strong>, show about <strong>95,000 measles deaths</strong> worldwide. Globally, 84% of children have gotten one dose of the vaccine and only 76% have gotten both — both below the 95% needed to stop measles.',
+          'The vaccine has done enormous good even so. Health agencies estimate measles shots prevented nearly <strong>59 million deaths between 2000 and 2024</strong> — more lives saved than any other vaccine over that period. The gaps that remain are about reaching the children who are still being missed.'
         ]
       },
       {
         h: 'The 2025 U.S. outbreak',
         p: [
-          'The United States experienced its <strong>largest measles resurgence since 1992</strong> in 2025: <strong>2,288 confirmed cases</strong> across 45 states and jurisdictions, 48 outbreaks, and <strong>3 deaths</strong>, with an 11% hospitalization rate (18% in children under 5). Among confirmed cases, <strong>93% were unvaccinated or of unknown status</strong>. A major epicenter in West Texas and New Mexico produced the first measles deaths in American children in more than 20 years — the previous pediatric measles death was in 2003.'
+          'In 2025 the U.S. had its <strong>worst measles year since 1992</strong>: <strong>2,288 confirmed cases</strong> across 45 states and territories, 48 separate outbreaks, and <strong>3 deaths</strong>. About 11 of every 100 patients ended up in the hospital — and among children under 5, closer to 18 of every 100.',
+          'The pattern was clear. About <strong>93% of the people who got measles were unvaccinated or had no vaccination record</strong>. The largest outbreak, in West Texas and New Mexico, caused the first measles deaths in American children in more than 20 years — the last one before that was in 2003.'
         ]
       }
     ],
     keyFacts: [
-      'Herd immunity requires ~92–95% population immunity because of measles\' high R\u2080.',
-      'In 2019, global cases surged to <strong>869,770</strong> (up 556% from 2016) with ~207,500 deaths.',
-      '2024 global burden: ~95,000 deaths; 84% first-dose and 76% two-dose coverage; ~30 million infants under-protected.',
-      'Measles vaccination averted an estimated <strong>59 million deaths</strong> from 2000 to 2024.',
-      '2025 U.S. outbreak: 2,288 cases, 48 outbreaks, 3 deaths — worst since 1992; 93% of cases unvaccinated.',
-      'The U.S. declared elimination in 2000; that status has been threatened in 2014, 2019, and 2025.'
+      'Stopping measles takes about <strong>95%</strong> of people being protected — higher than for almost any other disease.',
+      'In 2019, reported measles cases worldwide jumped to <strong>869,770</strong> (six times the 2016 low), with about 207,500 deaths.',
+      'In 2024 there were about <strong>95,000</strong> measles deaths worldwide; global two-dose coverage was only 76%.',
+      'Measles shots prevented an estimated <strong>59 million deaths</strong> from 2000 to 2024.',
+      '2025 was the worst U.S. year since 1992: <strong>2,288 cases</strong>, 3 deaths, and about 93% of cases in unvaccinated people.',
+      'The U.S. was declared measles-free in 2000, but outbreaks in 2014, 2019, and 2025 have threatened that status.'
     ],
     sources: [
       { t: 'WHO — Measles Fact Sheet (updated Nov 2025)', u: 'https://www.who.int/news-room/fact-sheets/detail/measles' },
@@ -281,51 +289,51 @@ const MODULES = [
     id: 'vaccine',
     num: 6,
     title: 'Vaccine Development History',
-    subtitle: 'From Enders to MMR — and the Wakefield fraud',
+    subtitle: 'How the vaccine was made — and the fraud that hurt it',
     icon: 'vaccine',
     summary:
-      'Meet the scientists who tamed measles — Enders, Peebles, and Hilleman — trace the path from the Edmonston strain to MMR, and understand the debunked 1998 fraud that fueled vaccine hesitancy.',
+      'How scientists built the measles vaccine over the 1950s and 60s, how it became the MMR shot, and the debunked 1998 study that scared families away from it.',
     readingMinutes: 8,
     sections: [
       {
-        h: 'Isolating the virus (1954)',
+        h: 'Catching the virus (1954)',
         p: [
-          'The story begins in the winter of 1953–54 at Fay School in Southborough, Massachusetts, during a measles outbreak. <strong>John Franklin Enders</strong> — the 1954 Nobel Laureate for showing poliovirus could be grown in non-neural tissue culture — sent his trainee <strong>Thomas C. Peebles</strong> to collect samples. Peebles obtained blood from an 11-year-old named <strong>David Edmonston</strong> and successfully cultured the measles virus. (Contemporary accounts and Edmonston\'s own recollection give his age as 11, though some later sources say 13.) That isolate, the <strong>Edmonston strain</strong>, became the genetic progenitor of virtually every live-attenuated measles vaccine since.'
+          'The story starts during a 1954 measles outbreak at a boarding school in Massachusetts. A scientist named <strong>John Enders</strong> — who had just won a Nobel Prize for figuring out how to grow viruses in the lab — sent a colleague, <strong>Thomas Peebles</strong>, to collect blood samples from sick students. From an 11-year-old boy named <strong>David Edmonston</strong>, they managed to grow the measles virus in the lab for the first time. (Most accounts, and Edmonston himself, say he was 11; a few later sources say 13.) That lab sample, called the <strong>Edmonston strain</strong>, became the starting point for nearly every measles vaccine made since.'
         ]
       },
       {
-        h: 'First licensed vaccine: Edmonston-B (1963)',
+        h: 'The first vaccine (1963)',
         p: [
-          'Enders and colleagues, including Samuel Katz, spent the late 1950s attenuating the Edmonston strain through serial passage. By 1961 it was reported as 100% effective in trials involving thousands of children. In <strong>1963</strong>, the <strong>Edmonston-B vaccine</strong> was licensed — the first measles vaccine for public use. It worked, but caused frequent fever and rash, often requiring immune serum globulin alongside it. Even so, reported cases dropped more than 97% between 1965 and 1968.'
+          'To make a vaccine, scientists weakened the virus so it would train the immune system without making people sick. Enders and his team spent the late 1950s doing this, and by 1961 their vaccine protected essentially all of the thousands of children tested. In <strong>1963</strong> the first measles vaccine went on sale. It worked well, but it often caused fever and a rash, so it was sometimes given alongside another shot to ease those effects. Even with those rough edges, U.S. measles cases dropped by more than 97% within a few years.'
         ]
       },
       {
-        h: 'Hilleman\u2019s breakthrough: the Moraten strain (1968)',
+        h: 'A gentler version (1968)',
         p: [
-          'The reactogenicity problem fell to <strong>Maurice Hilleman</strong> at Merck — arguably the most prolific vaccine developer in history, responsible for over 40 vaccines. He further attenuated the Enders strain through 40 additional passages in chick embryo cells, producing a far less reactogenic vaccine with equivalent efficacy. He named it <strong>"Moraten"</strong> — "More Attenuated Enders" — licensed in <strong>1968</strong>. The Moraten (Edmonston-Enders) strain has been the only measles vaccine used in the U.S. ever since.'
+          'The fever-and-rash problem was solved by <strong>Maurice Hilleman</strong>, a scientist at Merck who developed more than 40 vaccines in his career. He weakened the virus further until the vaccine caused far fewer side effects while still protecting just as well. He named his version <strong>“Moraten”</strong> (short for “More Attenuated Enders,” meaning “more weakened”), and it was approved in <strong>1968</strong>. It is still the measles vaccine used in the U.S. today.'
         ]
       },
       {
-        h: 'The MMR combination vaccine (1971)',
+        h: 'Three shots become one: MMR (1971)',
         p: [
-          'Hilleman and colleague Eugene Buynak had also developed vaccines for mumps (1967) and rubella (1969). Recognizing the advantages of a single shot, Merck combined all three into the <strong>MMR vaccine</strong>, licensed in <strong>1971</strong>. In <strong>1989</strong>, amid outbreaks among vaccinated school-age children, a <strong>second dose</strong> was recommended. Today, two doses of MMR are 97% effective against measles.'
+          'Hilleman and his colleagues had also made vaccines for mumps and rubella (German measles). Rather than give three separate shots, they combined all three into one — the <strong>MMR vaccine</strong> — approved in <strong>1971</strong>. In <strong>1989</strong>, after outbreaks showed a single dose was not always enough, health officials added a <strong>second dose</strong>. Two doses of MMR now stop measles about <strong>97%</strong> of the time — meaning it fails for only about 3 of every 100 fully vaccinated people.'
         ]
       },
       {
-        h: 'The Wakefield fraud (1998–2010)',
+        h: 'The 1998 study that got it wrong',
         p: [
-          'On February 28, 1998, Andrew Wakefield and co-authors published a 12-child case series in <em>The Lancet</em> suggesting a link between MMR and autism. The paper was small, uncontrolled, and speculative — but heavily amplified by the media, and vaccination rates fell. Multiple large studies of hundreds of thousands to millions of children refuted any causal link.',
-          'Investigative journalist Brian Deer revealed that Wakefield had undisclosed financial conflicts and had misrepresented the children\'s histories. <em>The Lancet</em> <strong>fully retracted</strong> the paper in February 2010, and Wakefield was <strong>struck off the UK medical register</strong> in May 2010. The BMJ later concluded the paper was deliberate <strong>data falsification</strong> for financial gain. Its public-health consequences — decades of vaccine hesitancy — persist to this day.'
+          'In 1998, a doctor named Andrew Wakefield published a paper in the journal <em>The Lancet</em> suggesting the MMR vaccine might cause autism. It was based on just 12 children and had no comparison group, so it could not actually show cause and effect. The news covered it heavily anyway, many parents got scared, and vaccination rates dropped. Since then, studies following hundreds of thousands to millions of children have looked hard for a link between MMR and autism and found none. The vaccine does not cause autism.',
+          'The story got worse. A journalist, Brian Deer, found that Wakefield had been paid in connection with a lawsuit against vaccine makers — money he never disclosed — and that he had changed the children’s medical histories to fit his claim. <em>The Lancet</em> <strong>retracted</strong> the paper in 2010, and Wakefield <strong>lost his medical license</strong>. A later investigation by the journal <em>BMJ</em> concluded he had faked the data on purpose. It is worth being clear about the harm: the fear that paper created still keeps some families from vaccinating today, and children have died in outbreaks because of it.'
         ]
       }
     ],
     keyFacts: [
-      'In 1954, <strong>Enders and Peebles</strong> isolated measles from David Edmonston — the Edmonston strain.',
-      'Enders won the 1954 Nobel Prize for poliovirus tissue-culture work later applied to measles.',
-      'The first vaccine (<strong>Edmonston-B</strong>) was licensed in 1963.',
-      '<strong>Maurice Hilleman</strong> developed the improved Moraten strain in 1968 — still the U.S. vaccine today.',
-      'The <strong>MMR</strong> vaccine was licensed in 1971; a second dose was added in 1989.',
-      'Wakefield\'s 1998 MMR–autism paper was fully retracted in 2010 and declared deliberate fraud.'
+      'In 1954, <strong>Enders and Peebles</strong> first grew the measles virus in the lab — the Edmonston strain.',
+      'The first measles vaccine went on sale in <strong>1963</strong>.',
+      '<strong>Maurice Hilleman</strong> made a gentler version in 1968 — still the U.S. measles vaccine today.',
+      'The combined <strong>MMR</strong> shot arrived in 1971; a second dose was added in 1989.',
+      'Two doses of MMR stop measles about <strong>97%</strong> of the time.',
+      'The 1998 paper claiming MMR causes autism was <strong>retracted</strong>, its author lost his license, and its data were found to be faked. <strong>MMR does not cause autism.</strong>'
     ],
     sources: [
       { t: 'CDC — History of Measles', u: 'https://www.cdc.gov/measles/about/history.html' },
@@ -341,10 +349,10 @@ const MODULES = [
     id: 'samoa',
     num: 7,
     title: 'A Place Without Vaccines',
-    subtitle: 'The 2019 Samoa measles outbreak \u2014 a case study in systems failure',
+    subtitle: 'What happened when Samoa\u2019s vaccination rate fell',
     icon: 'current',
     summary:
-      'When Samoa\u2019s MMR coverage collapsed after a vaccine-handling tragedy, measles returned and killed 83 people \u2014 mostly young children \u2014 in a nation of 200,000. A stark lesson in what happens when herd immunity is lost.',
+      'In 2019, after a vaccine mix-up and a drop in vaccination, measles swept Samoa and killed 83 people \u2014 most of them young children \u2014 in a country of about 200,000. Here is how it happened, and what it teaches us.',
     readingMinutes: 9,
     video: {
       embed: 'https://www.youtube-nocookie.com/embed/cD-_ONtAJTQ',
@@ -373,10 +381,10 @@ const MODULES = [
       {
         h: 'How vaccination coverage collapsed',
         p: [
-          'Measles is among the most contagious diseases known: a single case can infect 12\u201318 others, so roughly <strong>94\u201395%</strong> of a population must be vaccinated to maintain herd immunity. Samoa, a Pacific nation of about 200,000 people, once met that bar \u2014 then, through a chain of interlocking systems failures, it did not.',
+          'Measles is one of the most contagious diseases there is, so about <strong>95%</strong> of people need to be vaccinated to keep it from spreading. Samoa, a Pacific island country of about 200,000 people, used to hit that mark. Then, over about a year and a half, a series of failures pulled its vaccination rate far below it.',
           'First-dose MMR coverage among one-year-olds drifted down from about <strong>90% in 2013 to 58% by 2017</strong>, driven by urbanization away from the village networks that had supported immunization, weaker outreach, and inconsistent data. Then came the defining tragedy: on <strong>6 July 2018</strong>, two infants died within minutes of receiving MMR at the same hospital.',
           'The subsequent investigation and court proceedings established that the deaths were caused entirely by a <strong>preparation error</strong> \u2014 a nurse had reconstituted the vaccine powder with an expired muscle relaxant instead of sterile water \u2014 <strong>not by the vaccine itself</strong>. The same vaccine batch was in use elsewhere without incident.',
-          'But the national MMR program was suspended for roughly ten months, and the true cause was not clearly communicated to the public for many of those months. Into that vacuum flowed misinformation. By the end of 2018, first-dose coverage had collapsed to about <strong>31\u201334%</strong>. The result was a population primed for catastrophe.'
+          'But the national MMR program was suspended for roughly ten months, and the true cause was not clearly communicated to the public for many of those months. Into that vacuum flowed misinformation. By the end of 2018, first-dose coverage had collapsed to about <strong>31\u201334%</strong> \u2014 meaning most young children had no protection at all. The stage was set for an outbreak.'
         ],
         img: {
           src: 'assets/module-samoa.png',
@@ -397,7 +405,7 @@ const MODULES = [
         h: 'Aftermath and lessons',
         p: [
           'The mass campaign pushed coverage to about <strong>95%</strong> by late December, and cases fell sharply. The state of emergency ended on 28 December 2019; the last case was recorded on 12 January 2020, and WHO declared the outbreak over on 6 March 2020. Samoa passed mandatory school-entry vaccination rules and later established its own national emergency medical team.',
-          'The lessons are stark and general. <strong>Herd immunity is a physical necessity, not an aspiration</strong>: with an R\u2080 of 12\u201318, measles exploits any gap in population immunity, which is why the ~95% threshold exists. Nearby Pacific nations that kept coverage near 99% saw no such catastrophe.',
+          'A few clear lessons come out of this. <strong>The 95% target is not optional.</strong> Because measles spreads so easily, it will find almost any gap in protection. Nearby Pacific islands that kept their vaccination rate near 99% did not have an outbreak like this one.',
           '<strong>Preventable disease returns fast.</strong> It took only about 14 months from the program\u2019s suspension for measles to find its opening and kill dozens of children.',
           'Above all, Samoa shows that a <strong>single clinical error, compounded by a program suspension, delayed transparency, and misinformation, can destroy immunization trust</strong> in a way that takes years to rebuild and costs lives. Clear, timely, honest communication after a vaccine-safety event is itself a life-saving public-health intervention \u2014 and maintaining high coverage is far cheaper, in lives and resources, than the outbreak that follows when coverage fails.'
         ]
