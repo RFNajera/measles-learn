@@ -715,6 +715,24 @@ select {
   background: var(--color-primary-highlight);
 }
 
+/* The "Take the quiz" button lives inside the TOC — keep button styling,
+   not the muted TOC-link styling (no left border, white text on teal). */
+.reader-toc .btn {
+  display: inline-flex;
+  border-left: none;
+  border-radius: var(--radius-md);
+}
+
+.reader-toc .btn-primary {
+  color: #fff;
+  background: var(--color-primary);
+}
+
+.reader-toc .btn-primary:hover {
+  color: #fff;
+  background: var(--color-primary-hover);
+}
+
 .reader-body {
   max-width: var(--content-narrow);
 }
