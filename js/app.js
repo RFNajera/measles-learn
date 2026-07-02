@@ -55,6 +55,16 @@
   const $ = (sel, ctx) => (ctx || document).querySelector(sel);
   const $$ = (sel, ctx) => Array.from((ctx || document).querySelectorAll(sel));
 
+  // Fisher-Yates shuffle — returns a new shuffled array of indices [0..n-1]
+  function shuffledOrder(n) {
+    const order = Array.from({ length: n }, (_, i) => i);
+    for (let i = n - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+    return order;
+  }
+
   function sourcesHtml(sources) {
     return (
       '<div class="sources"><h4>Sources</h4><ol>' +
@@ -254,6 +264,11 @@
     st.answered = false;
     const barPct = (st.i / total) * 100;
     const letters = ['A', 'B', 'C', 'D', 'E'];
+    // Shuffle option order so the correct answer isn't always in the same slot.
+    const order = shuffledOrder(q.options.length);
+    st.order = order;
+    // Position (in the shuffled display) that holds the correct answer.
+    st.correctPos = order.indexOf(q.correct);
     card.innerHTML = `
       <div class="quiz-progress">
         <span>Question ${st.i + 1} of ${total}</span>
@@ -262,10 +277,10 @@
       <div class="quiz-bar"><span style="width:${barPct}%"></span></div>
       <p class="quiz-question">${q.q}</p>
       <div class="quiz-options" id="opts">
-        ${q.options
+        ${order
           .map(
-            (o, i) =>
-              `<button class="quiz-option" data-i="${i}"><span class="marker">${letters[i]}</span><span>${o}</span></button>`
+            (origIdx, pos) =>
+              `<button class="quiz-option" data-i="${pos}"><span class="marker">${letters[pos]}</span><span>${q.options[origIdx]}</span></button>`
           )
           .join('')}
       </div>
@@ -279,7 +294,7 @@
         if (st.answered) return;
         st.answered = true;
         const chosen = parseInt(btn.dataset.i, 10);
-        const correct = q.correct;
+        const correct = st.correctPos;
         $$('#opts .quiz-option').forEach((b) => {
           const bi = parseInt(b.dataset.i, 10);
           b.disabled = true;

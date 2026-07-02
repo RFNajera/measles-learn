@@ -90,7 +90,7 @@ const MODULES = [
       {
         h: 'Immune amnesia',
         p: [
-          'One of measles\' most alarming properties is <strong>immune amnesia</strong> — the destruction of preexisting immunological memory. Because MeV uses CD150, and memory T cells carry more of it, measles preferentially infects and destroys memory lymphocytes. A 2019 <em>Science</em> study using VirScan found measles eliminated <strong>11%–73%</strong> of a child\'s total antibody pool, wiping out years of accumulated immunity. This suppression can last 2–3 years. Critically, the MMR vaccine does <strong>not</strong> cause immune amnesia — it builds immunity without depleting memory cells.'
+          'One of measles\' most alarming properties is <strong>immune amnesia</strong> — the destruction of preexisting immunological memory. Because MeV uses CD150, and memory T cells carry more of it, measles preferentially infects and destroys memory lymphocytes. A 2019 <em>Science</em> study using VirScan found measles eliminated <strong>11%–73%</strong> of a child\'s total antibody pool, wiping out years of accumulated immunity. This suppression typically lasts 2–3 years, with some studies documenting elevated infection risk for up to five years. Critically, the MMR vaccine does <strong>not</strong> cause immune amnesia — it builds immunity without depleting memory cells.'
         ]
       }
     ],
@@ -123,7 +123,7 @@ const MODULES = [
       {
         h: 'Disease progression: from exposure to rash',
         p: [
-          'Measles follows a predictable four-stage course. After exposure, a <strong>prodromal phase</strong> of 10–14 days passes with no symptoms. The illness then announces itself with the classic triad — high fever (often 103–105°F), cough, coryza (runny nose), and conjunctivitis: the "three C\'s." Infectivity actually peaks during this prodrome, before the tell-tale rash appears, making containment difficult.',
+          'Measles follows a predictable course. After exposure, a symptom-free <strong>incubation period</strong> of about 10–12 days (range 7–21) passes. The illness then opens with the <strong>prodrome</strong> — a 2–4 day symptomatic phase marked by high fever (often 103–105°F) and the classic triad of cough, coryza (runny nose), and conjunctivitis: the "three C\'s." Infectivity peaks during this prodrome, before the tell-tale rash appears, making containment difficult.',
           'A pathognomonic early sign is <strong>Koplik spots</strong> — tiny blue-white lesions on the inner cheek, appearing 1–2 days before the rash. The maculopapular rash then erupts on the face and hairline and spreads downward over 3–5 days. A patient is infectious from 4 days before to 4 days after rash onset.'
         ]
       },
@@ -244,7 +244,7 @@ const MODULES = [
       {
         h: 'Threat to U.S. elimination status',
         p: [
-          'The U.S. declared measles <strong>eliminated in 2000</strong>. But in 2019, prolonged outbreaks in undervaccinated communities in New York drove <strong>1,282 cases</strong> across 31 states — the highest since 1992 — nearly costing the country its elimination status. About 89% of those affected were unvaccinated or of unknown status.'
+          'The U.S. declared measles <strong>eliminated in 2000</strong>. But in 2019, prolonged outbreaks in undervaccinated communities in New York drove <strong>1,274 confirmed cases</strong> across 31 states — the highest since 1992 — nearly costing the country its elimination status. About 89% of those affected were unvaccinated or of unknown status.'
         ]
       },
       {
@@ -256,7 +256,7 @@ const MODULES = [
       {
         h: 'The 2025 U.S. outbreak',
         p: [
-          'The United States experienced its <strong>largest measles resurgence since 1992</strong> in 2025: <strong>2,288 confirmed cases</strong> across 45 states and jurisdictions, 48 outbreaks, and <strong>3 deaths</strong>, with an 11% hospitalization rate (18% in children under 5). Among confirmed cases, <strong>93% were unvaccinated or of unknown status</strong>. A major epicenter in West Texas and New Mexico produced the first measles deaths in American children in more than a decade.'
+          'The United States experienced its <strong>largest measles resurgence since 1992</strong> in 2025: <strong>2,288 confirmed cases</strong> across 45 states and jurisdictions, 48 outbreaks, and <strong>3 deaths</strong>, with an 11% hospitalization rate (18% in children under 5). Among confirmed cases, <strong>93% were unvaccinated or of unknown status</strong>. A major epicenter in West Texas and New Mexico produced the first measles deaths in American children in more than 20 years — the previous pediatric measles death was in 2003.'
         ]
       }
     ],
@@ -514,8 +514,8 @@ const TIMELINE = [
   { year: '2000', era: true, title: 'U.S. declares measles eliminated', text: 'The United States officially declares measles eliminated after interrupting endemic transmission for over 12 months.', src: { t: 'CDC — History of Measles', u: 'https://www.cdc.gov/measles/about/history.html' } },
   { year: '2010', title: 'Wakefield paper retracted; author struck off', text: 'The Lancet fully retracts the 1998 paper (February); Wakefield is struck off the UK medical register (May).', src: { t: 'BMJ (2011)', u: 'https://www.bmj.com/content/342/bmj.c7452' } },
   { year: '2019', title: 'Immune amnesia quantified', text: 'Landmark Science studies show measles can erase 11–73% of a person\'s preexisting antibody repertoire, with effects lasting years.', src: { t: 'Mina et al., Science (2019)', u: 'https://www.science.org/doi/10.1126/science.aay6485' } },
-  { year: '2019', era: true, title: 'Global & U.S. resurgence', text: 'Global cases reach 869,770 (up 556% from 2016) with ~207,500 deaths; the U.S. records 1,282 cases and nearly loses elimination status.', src: { t: 'WHO (2020)', u: 'https://www.who.int/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019' } },
+  { year: '2019', era: true, title: 'Global & U.S. resurgence', text: 'Global cases reach 869,770 (up 556% from 2016) with ~207,500 deaths; the U.S. records 1,274 cases and nearly loses elimination status.', src: { t: 'WHO (2020)', u: 'https://www.who.int/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019' } },
   { year: '2020', title: 'Measles origins pushed back', text: 'Düx et al. use a 1912 viral genome to estimate the measles–rinderpest divergence at least as far back as the 6th century BCE.', src: { t: 'Düx et al., Science (2020)', u: 'https://www.science.org/doi/10.1126/science.aba9411' } },
   { year: '2024', title: '59 million deaths averted', text: 'WHO estimates ~95,000 global measles deaths, with vaccination having averted nearly 59 million deaths since 2000; ~30 million infants remain under-protected.', src: { t: 'WHO Fact Sheet (Nov 2025)', u: 'https://www.who.int/news-room/fact-sheets/detail/measles' } },
-  { year: '2025', era: true, title: 'Largest U.S. resurgence since 1992', text: '2,288 confirmed cases across 45 jurisdictions, 48 outbreaks, and 3 deaths (including the first pediatric measles deaths in over a decade); 93% of cases unvaccinated.', src: { t: 'CDC — Measles Cases and Outbreaks', u: 'https://www.cdc.gov/measles/data-research/index.html' } }
+  { year: '2025', era: true, title: 'Largest U.S. resurgence since 1992', text: '2,288 confirmed cases across 45 jurisdictions, 48 outbreaks, and 3 deaths (including the first pediatric measles deaths since 2003); 93% of cases unvaccinated.', src: { t: 'CDC — Measles Cases and Outbreaks', u: 'https://www.cdc.gov/measles/data-research/index.html' } }
 ];
