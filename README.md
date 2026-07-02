@@ -2,7 +2,7 @@
 
 An interactive, evidence-based web application for learning everything about the measles virus — its origins, virology, clinical disease, epidemiology (past and present), and the history of the measles vaccine.
 
-**Live site:** https://rfnajera.github.io/measles-learn/
+**Live site:** https://coding.epidemiological.net/measles-learn/
 
 ## Features
 
