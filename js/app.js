@@ -140,14 +140,44 @@
 
     const toc = m.sections
       .map((s, i) => `<a href="#s-${i}" data-scroll="s-${i}">${s.h}</a>`)
-      .join('');
+      .join('') +
+      (m.timeline && m.timeline.length
+        ? `<a href="#s-timeline" data-scroll="s-timeline">${m.timelineHeading || 'Timeline of the outbreak'}</a>`
+        : '');
 
     const body = m.sections
-      .map(
-        (s, i) =>
-          `<h3 id="s-${i}">${s.h}</h3>` + s.p.map((p) => `<p>${p}</p>`).join('')
-      )
+      .map((s, i) => {
+        let html = `<h3 id="s-${i}">${s.h}</h3>`;
+        s.p.forEach((p) => { html += `<p>${p}</p>`; });
+        if (s.img) {
+          html += `<figure class="reader-figure"><img src="${s.img.src}" alt="${s.img.alt || ''}" loading="lazy" />` +
+            (s.img.caption ? `<figcaption>${s.img.caption}</figcaption>` : '') + `</figure>`;
+        }
+        return html;
+      })
       .join('');
+
+    // Optional embedded video (e.g., YouTube)
+    const videoHtml = m.video
+      ? `<figure class="reader-figure video-embed">
+           <div class="video-frame"><iframe src="${m.video.embed}" title="${m.video.title || 'Video'}"
+             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>
+           ${m.video.caption ? `<figcaption>${m.video.caption}</figcaption>` : ''}
+         </figure>`
+      : '';
+
+    // Optional in-module detailed timeline
+    const moduleTimeline = m.timeline && m.timeline.length
+      ? `<h3 id="s-timeline">${m.timelineHeading || 'Timeline of the outbreak'}</h3>
+         <div class="mini-timeline">` +
+        m.timeline.map((t) =>
+          `<div class="mt-item"><div class="mt-date">${t.date}</div>
+             <div class="mt-body"><p>${t.text}</p>` +
+          (t.src ? `<p class="mt-src"><a href="${t.src.u}" target="_blank" rel="noopener">${t.src.t}</a></p>` : '') +
+          `</div></div>`).join('') +
+        `</div>`
+      : '';
 
     const keyFacts =
       `<div class="keyfacts"><h4>Key facts</h4><ul>` +
@@ -173,7 +203,9 @@
               <h2>${m.title}</h2>
               <p class="lead">${m.subtitle}</p>
               ${keyFacts}
+              ${videoHtml}
               ${body}
+              ${moduleTimeline}
               ${sourcesHtml(m.sources)}
               <div class="reader-nav">
                 ${prev ? `<a class="btn btn-ghost" href="#module/${prev.id}" data-nav="module" data-id="${prev.id}">← ${prev.title}</a>` : '<span></span>'}

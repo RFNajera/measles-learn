@@ -336,11 +336,129 @@ const MODULES = [
       { t: 'BMJ (2011) — Wakefield\u2019s article was fraudulent', u: 'https://www.bmj.com/content/342/bmj.c7452' },
       { t: 'Indian Journal of Psychiatry (2011) — the Wakefield affair', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3136032/' }
     ]
+  },
+  {
+    id: 'samoa',
+    num: 7,
+    title: 'A Place Without Vaccines',
+    subtitle: 'The 2019 Samoa measles outbreak \u2014 a case study in systems failure',
+    icon: 'current',
+    summary:
+      'When Samoa\u2019s MMR coverage collapsed after a vaccine-handling tragedy, measles returned and killed 83 people \u2014 mostly young children \u2014 in a nation of 200,000. A stark lesson in what happens when herd immunity is lost.',
+    readingMinutes: 9,
+    video: {
+      embed: 'https://www.youtube-nocookie.com/embed/cD-_ONtAJTQ',
+      title: 'The 2019 Samoa measles outbreak',
+      caption: 'Video overview of the 2019 Samoa measles outbreak and its aftermath.'
+    },
+    timelineHeading: 'Timeline of the outbreak',
+    timeline: [
+      { date: '2013', text: 'Samoa\u2019s first-dose MMR coverage for one-year-olds sits near 90% \u2014 close to the herd-immunity threshold \u2014 before a multi-year decline begins amid urbanization and weakening routine-immunization outreach.', src: { t: 'WHO/UNICEF data (Journal of Global Health)', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7533430/' } },
+      { date: '2013\u20132017', text: 'First-dose MMR coverage falls year on year \u2014 roughly 90% (2013) to 82%, 69%, 68%, and 58% (2017) \u2014 leaving successive birth cohorts under-protected.', src: { t: 'Journal of Global Health', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7533430/' } },
+      { date: '6 July 2018', text: 'Two 12-month-old infants die within minutes of MMR vaccination at Safotu Hospital. The national MMR program is immediately suspended while investigations begin; the cause is not initially made public.', src: { t: '1News NZ', u: 'https://www.1news.co.nz/2019/08/02/nurses-sentenced-to-five-years-in-prison-for-incorrectly-administering-mmr-vaccine-that-led-to-deaths-of-two-infants-in-samoa/' } },
+      { date: 'Late 2018', text: 'With the program suspended and the cause of the deaths not yet clearly communicated, misinformation spreads. First-dose MMR coverage among one-year-olds collapses to about 31\u201334% \u2014 far below the ~95% needed for herd immunity.', src: { t: 'BBC News', u: 'https://www.bbc.com/news/world-asia-50625680' } },
+      { date: 'April 2019', text: 'Health officials publicly confirm the 2018 deaths were caused by a preparation error, not the vaccine, and the MMR program restarts \u2014 but coverage remains dangerously low after roughly ten months of suspension.', src: { t: 'ABC Pacific', u: 'https://www.abc.net.au/pacific/programs/pacificbeat/samoa-vaccine-confidence/13158420' } },
+      { date: '2 August 2019', text: 'A court establishes that the infant deaths resulted from a nurse mixing the MMR powder with an expired muscle relaxant instead of sterile water; two nurses are sentenced. The vaccine itself was not defective.', src: { t: '1News NZ', u: 'https://www.1news.co.nz/2019/08/02/nurses-sentenced-to-five-years-in-prison-for-incorrectly-administering-mmr-vaccine-that-led-to-deaths-of-two-infants-in-samoa/' } },
+      { date: 'August 2019', text: 'An infected traveler from Auckland (amid a New Zealand outbreak) is believed to introduce measles to Upolu \u2014 into a population with roughly 31% first-dose coverage.', src: { t: 'The Guardian', u: 'https://www.theguardian.com/world/2019/dec/18/these-babies-should-not-have-died-how-the-measles-outbreak-took-hold-in-samoa' } },
+      { date: '16 October 2019', text: 'Samoa formally declares a measles outbreak with seven confirmed cases \u2014 the first Pacific nation to do so in the global resurgence. The exponential trajectory is already visible.', src: { t: 'The Lancet Infectious Diseases', u: 'https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30053-0/abstract' } },
+      { date: '15 November 2019', text: 'The government declares a state of emergency: schools close, public gatherings by children are banned, and vaccination becomes mandatory for priority groups. A mass vaccination campaign begins on 20 November.', src: { t: 'The Guardian', u: 'https://www.theguardian.com/world/2019/nov/17/samoa-declares-state-of-emergency-over-deadly-measles-epidemic' } },
+      { date: '22 November 2019', text: 'The toll reaches about 1,644 cases and 20 deaths; 92% of hospital admissions are children, and critically ill children overwhelm a six-bed ICU.', src: { t: 'WHO/UNICEF Pacific Situation Report', u: 'https://www.who.int/docs/default-source/wpro---documents/dps/outbreaks-and-emergencies/measles-2019/measles-pacific-who-unicef-sitrep-20191122-docx.pdf' } },
+      { date: '5\u20136 December 2019', text: 'The government shuts down non-essential public services for two days, redeploying staff to a national vaccination drive. Unvaccinated households are asked to fly a red flag so mobile teams can find them; ~90% of the population is reached.', src: { t: 'NPR', u: 'https://www.npr.org/2019/12/02/784179707/samoan-government-to-close-its-offices-amid-measles-crisis-that-has-left-53-dead' } },
+      { date: 'December 2019', text: 'Eighteen international Emergency Medical Teams and hundreds of health workers assist; UNICEF supplies over 200,000 doses. By 20 December about 94% of the eligible population is vaccinated.', src: { t: 'Western Pacific Surveillance and Response Journal', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11089276/' } },
+      { date: '28 December 2019', text: 'With cases falling sharply, the state of emergency is lifted and replaced by a \u201cstate of recovery.\u201d Coverage reaches about 95%.', src: { t: 'ABC News', u: 'https://abcnews.go.com/Health/samoa-ends-measles-state-emergency/story?id=67982048' } },
+      { date: '12 January 2020', text: 'The last confirmed case of the outbreak is recorded. The final toll: 5,707 cases and 83 deaths \u2014 87% of the deaths in children under five.', src: { t: 'The Lancet (Thornton, 2020)', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7255155/' } },
+      { date: '6 March 2020', text: 'WHO declares the outbreak over. Samoa passes mandatory school-entry vaccination requirements and later builds its own national emergency medical team \u2014 lasting institutional legacies of the crisis.', src: { t: 'ReliefWeb / WHO', u: 'https://reliefweb.int/disaster/ep-2019-000139-wsm' } }
+    ],
+    sections: [
+      {
+        h: 'How vaccination coverage collapsed',
+        p: [
+          'Measles is among the most contagious diseases known: a single case can infect 12\u201318 others, so roughly <strong>94\u201395%</strong> of a population must be vaccinated to maintain herd immunity. Samoa, a Pacific nation of about 200,000 people, once met that bar \u2014 then, through a chain of interlocking systems failures, it did not.',
+          'First-dose MMR coverage among one-year-olds drifted down from about <strong>90% in 2013 to 58% by 2017</strong>, driven by urbanization away from the village networks that had supported immunization, weaker outreach, and inconsistent data. Then came the defining tragedy: on <strong>6 July 2018</strong>, two infants died within minutes of receiving MMR at the same hospital.',
+          'The subsequent investigation and court proceedings established that the deaths were caused entirely by a <strong>preparation error</strong> \u2014 a nurse had reconstituted the vaccine powder with an expired muscle relaxant instead of sterile water \u2014 <strong>not by the vaccine itself</strong>. The same vaccine batch was in use elsewhere without incident.',
+          'But the national MMR program was suspended for roughly ten months, and the true cause was not clearly communicated to the public for many of those months. Into that vacuum flowed misinformation. By the end of 2018, first-dose coverage had collapsed to about <strong>31\u201334%</strong>. The result was a population primed for catastrophe.'
+        ],
+        img: {
+          src: 'assets/module-samoa.png',
+          alt: 'Epidemic curve of the 2019 Samoa measles outbreak showing weekly and cumulative cases',
+          caption: 'The outbreak\u2019s epidemic curve. Weekly case estimates modeled to match published WHO/UNICEF and Lancet cumulative figures. Graph is AI-generated based on real data.'
+        }
+      },
+      {
+        h: 'The outbreak',
+        p: [
+          'In August 2019, measles was most likely imported by a traveler from New Zealand, then in the midst of its own outbreak. The virus met a vast pool of susceptible children and spread explosively. On <strong>16 October 2019</strong> Samoa declared an outbreak with just seven cases; within weeks the count passed 1,000.',
+          'On <strong>15 November 2019</strong> the government declared a state of emergency \u2014 closing schools, restricting gatherings, and making vaccination mandatory for priority groups. Even so, transmission kept accelerating: by 22 November there were about 1,644 cases and 20 deaths, with 92% of hospital admissions being children and a six-bed intensive care unit overwhelmed.',
+          'The response escalated to extraordinary measures. Unvaccinated households were asked to fly a red flag so mobile teams could reach them, and on <strong>5\u20136 December</strong> the government shut down non-essential public services for two days to run a mass vaccination drive, reaching about 90% of the population. Eighteen international Emergency Medical Teams and hundreds of health workers assisted.',
+          'The toll was devastating: <strong>5,707 measles cases and 83 deaths</strong> in a nation of ~200,000, with <strong>87% of the deaths in children under five</strong>. The country\u2019s peacetime health system \u2014 a six-bed ICU, a handful of specialists \u2014 was pushed far beyond capacity within weeks.'
+        ]
+      },
+      {
+        h: 'Aftermath and lessons',
+        p: [
+          'The mass campaign pushed coverage to about <strong>95%</strong> by late December, and cases fell sharply. The state of emergency ended on 28 December 2019; the last case was recorded on 12 January 2020, and WHO declared the outbreak over on 6 March 2020. Samoa passed mandatory school-entry vaccination rules and later established its own national emergency medical team.',
+          'The lessons are stark and general. <strong>Herd immunity is a physical necessity, not an aspiration</strong>: with an R\u2080 of 12\u201318, measles exploits any gap in population immunity, which is why the ~95% threshold exists. Nearby Pacific nations that kept coverage near 99% saw no such catastrophe.',
+          '<strong>Preventable disease returns fast.</strong> It took only about 14 months from the program\u2019s suspension for measles to find its opening and kill dozens of children.',
+          'Above all, Samoa shows that a <strong>single clinical error, compounded by a program suspension, delayed transparency, and misinformation, can destroy immunization trust</strong> in a way that takes years to rebuild and costs lives. Clear, timely, honest communication after a vaccine-safety event is itself a life-saving public-health intervention \u2014 and maintaining high coverage is far cheaper, in lives and resources, than the outbreak that follows when coverage fails.'
+        ]
+      }
+    ],
+    keyFacts: [
+      'Samoa\u2019s first-dose MMR coverage fell from about <strong>90% (2013) to 31\u201334% (2018)</strong> after a ten-month program suspension following a July 2018 vaccine-handling tragedy.',
+      'The 2018 infant deaths were caused by a <strong>preparation error</strong> (vaccine mixed with an expired muscle relaxant), <strong>not the vaccine</strong> \u2014 confirmed in court.',
+      'From September 2019 to January 2020 the outbreak caused <strong>5,707 cases and 83 deaths</strong> in a nation of ~200,000.',
+      '<strong>87% of the deaths were in children under five.</strong>',
+      'A state of emergency, mandatory vaccination, and a two-day government shutdown for a mass campaign raised coverage to about <strong>95%</strong> and ended the outbreak.',
+      'The core lesson is systemic: transparency, trust, and sustained high coverage \u2014 not blame \u2014 are what prevent outbreaks.'
+    ],
+    sources: [
+      { t: 'WHO/UNICEF \u2014 Pacific Measles Outbreak Situation Reports (2019\u20132020)', u: 'https://www.who.int/docs/default-source/wpro---documents/dps/outbreaks-and-emergencies/measles-2019/20200122-measles-pacific-who-unicef-sitrep-11.pdf?sfvrsn=9e1851f5_2' },
+      { t: 'The Lancet Infectious Diseases \u2014 Samoa measles outbreak', u: 'https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30053-0/abstract' },
+      { t: 'The Lancet (Thornton, 2020) \u2014 outbreak and aftermath', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7255155/' },
+      { t: 'Journal of Global Health (2020) \u2014 coverage collapse and toll', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7533430/' },
+      { t: 'BBC News \u2014 how misinformation took hold', u: 'https://www.bbc.com/news/world-asia-50625680' },
+      { t: 'The Guardian \u2014 how the outbreak took hold', u: 'https://www.theguardian.com/world/2019/dec/18/these-babies-should-not-have-died-how-the-measles-outbreak-took-hold-in-samoa' },
+      { t: 'NPR \u2014 government shutdown for mass vaccination', u: 'https://www.npr.org/2019/12/02/784179707/samoan-government-to-close-its-offices-amid-measles-crisis-that-has-left-53-dead' },
+      { t: '1News NZ \u2014 court findings on the 2018 administration error', u: 'https://www.1news.co.nz/2019/08/02/nurses-sentenced-to-five-years-in-prison-for-incorrectly-administering-mmr-vaccine-that-led-to-deaths-of-two-infants-in-samoa/' },
+      { t: 'Doherty Institute \u2014 measles in Samoa', u: 'https://www.doherty.edu.au/articles/measles-in-samoa-in-the-grips-of-an-outbreak-disaster/' }
+    ]
   }
 ];
 
 /* ---- Quizzes: keyed by module id ---- */
 const QUIZZES = {
+  samoa: [
+    {
+      q: 'Roughly how far did Samoa\u2019s first-dose MMR coverage fall by the end of 2018?',
+      options: ['To about 31\u201334%', 'To about 80%', 'It stayed near 95%', 'To exactly 0%'],
+      correct: 0,
+      why: 'After the 2018 program suspension and a surge of misinformation, first-dose coverage collapsed to roughly 31\u201334% \u2014 far below the ~95% needed for herd immunity.'
+    },
+    {
+      q: 'What actually caused the two infant deaths in July 2018?',
+      options: ['A preparation error \u2014 the vaccine was mixed with an expired muscle relaxant', 'A defective vaccine batch', 'An allergic reaction to the vaccine', 'The measles virus itself'],
+      correct: 0,
+      why: 'A court confirmed the deaths were caused by a nurse mixing the MMR powder with an expired muscle relaxant instead of sterile water \u2014 not by the vaccine, which was not defective.'
+    },
+    {
+      q: 'What was the final toll of the 2019 Samoa outbreak?',
+      options: ['About 5,700 cases and 83 deaths', 'About 500 cases and 5 deaths', 'About 200 cases and no deaths', 'About 50,000 cases and 1,000 deaths'],
+      correct: 0,
+      why: 'The outbreak caused 5,707 cases and 83 deaths in a nation of ~200,000, with 87% of deaths in children under five.'
+    },
+    {
+      q: 'Which extraordinary measure did Samoa take on 5\u20136 December 2019?',
+      options: ['A two-day government shutdown to run a mass vaccination drive', 'Closing all borders permanently', 'Banning the MMR vaccine', 'Evacuating the islands'],
+      correct: 0,
+      why: 'The government shut down non-essential public services for two days and redeployed staff to a mass vaccination campaign, reaching about 90% of the population.'
+    },
+    {
+      q: 'What is the central, apolitical lesson of the Samoa outbreak?',
+      options: ['Systemic failures \u2014 lost coverage, delayed transparency, and misinformation \u2014 let a preventable disease return', 'Vaccines are inherently dangerous', 'Small nations cannot control outbreaks', 'Measles is not actually preventable'],
+      correct: 0,
+      why: 'The outbreak resulted from a chain of systems failures. Maintaining high coverage and communicating honestly after a safety event are what prevent such tragedies.'
+    }
+  ],
   origins: [
     {
       q: 'What is the closest known viral relative of the measles virus?',
@@ -518,6 +636,7 @@ const TIMELINE = [
   { year: '2010', title: 'Wakefield paper retracted; author struck off', text: 'The Lancet fully retracts the 1998 paper (February); Wakefield is struck off the UK medical register (May).', src: { t: 'BMJ (2011)', u: 'https://www.bmj.com/content/342/bmj.c7452' } },
   { year: '2019', title: 'Immune amnesia quantified', text: 'Landmark Science studies show measles can erase 11–73% of a person\'s preexisting antibody repertoire, with effects lasting years.', src: { t: 'Mina et al., Science (2019)', u: 'https://www.science.org/doi/10.1126/science.aay6485' } },
   { year: '2019', era: true, title: 'Global & U.S. resurgence', text: 'Global cases reach 869,770 (up 556% from 2016) with ~207,500 deaths; the U.S. records 1,274 cases and nearly loses elimination status.', src: { t: 'WHO (2020)', u: 'https://www.who.int/news/item/12-11-2020-worldwide-measles-deaths-climb-50-from-2016-to-2019-claiming-over-207-500-lives-in-2019' } },
+  { year: '2019–20', era: true, title: 'Samoa: a place without vaccines', text: 'After MMR coverage collapsed to ~31%, a measles outbreak in Samoa caused 5,707 cases and 83 deaths — 87% in children under five — in a nation of ~200,000. See Module 7.', src: { t: 'The Lancet (2020)', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7255155/' } },
   { year: '2020', title: 'Measles origins pushed back', text: 'Düx et al. use a 1912 viral genome to estimate the measles–rinderpest divergence at least as far back as the 6th century BCE.', src: { t: 'Düx et al., Science (2020)', u: 'https://www.science.org/doi/10.1126/science.aba9411' } },
   { year: '2024', title: '59 million deaths averted', text: 'WHO estimates ~95,000 global measles deaths, with vaccination having averted nearly 59 million deaths since 2000; ~30 million infants remain under-protected.', src: { t: 'WHO Fact Sheet (Nov 2025)', u: 'https://www.who.int/news-room/fact-sheets/detail/measles' } },
   { year: '2025', era: true, title: 'Largest U.S. resurgence since 1992', text: '2,288 confirmed cases across 45 jurisdictions, 48 outbreaks, and 3 deaths (including the first pediatric measles deaths since 2003); 93% of cases unvaccinated.', src: { t: 'CDC — Measles Cases and Outbreaks', u: 'https://www.cdc.gov/measles/data-research/index.html' } }
