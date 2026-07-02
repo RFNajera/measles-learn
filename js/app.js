@@ -114,7 +114,7 @@
         <a class="module-card" href="#module/${m.id}" data-nav="module" data-id="${m.id}">
           <div class="module-card-media">
             <span class="module-num">${m.num}</span>
-            <img src="assets/module-${m.id}.svg" alt="" loading="lazy" />
+            <img src="assets/module-${m.id}.png" alt="Illustration for ${m.title}" loading="lazy" />
           </div>
           <div class="module-card-body">
             <h3>${m.title}</h3>
