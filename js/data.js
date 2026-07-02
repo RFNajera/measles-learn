@@ -365,7 +365,7 @@ const MODULES = [
     video: {
       embed: 'https://www.youtube-nocookie.com/embed/cD-_ONtAJTQ',
       title: 'The 2019 Samoa measles outbreak',
-      caption: 'Video overview of the 2019 Samoa measles outbreak and its aftermath.'
+      caption: 'News footage of the 2019 Samoa measles outbreak.'
     },
     timelineHeading: 'Timeline of the outbreak',
     timeline: [
