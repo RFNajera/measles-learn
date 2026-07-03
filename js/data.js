@@ -438,11 +438,156 @@ const MODULES = [
       { t: '1News NZ \u2014 court findings on the 2018 administration error', u: 'https://www.1news.co.nz/2019/08/02/nurses-sentenced-to-five-years-in-prison-for-incorrectly-administering-mmr-vaccine-that-led-to-deaths-of-two-infants-in-samoa/' },
       { t: 'Doherty Institute \u2014 measles in Samoa', u: 'https://www.doherty.edu.au/articles/measles-in-samoa-in-the-grips-of-an-outbreak-disaster/' }
     ]
+  },
+  {
+    id: 'myths',
+    num: 8,
+    title: 'Myths & Misconceptions',
+    subtitle: 'The common claims about measles and the vaccine \u2014 and what the evidence actually says',
+    icon: 'myths',
+    summary:
+      'A myth-by-myth guide to the most common false claims about measles and the MMR vaccine \u2014 from \u201cit causes autism\u201d to \u201cnatural infection is better\u201d \u2014 each paired with what the evidence really shows, plus a checklist for spotting the next myth yourself.',
+    readingMinutes: 11,
+    sections: [
+      {
+        h: 'Myth 1: \u201cThe MMR vaccine causes autism.\u201d',
+        p: [
+          '<strong>The claim:</strong> Getting the MMR shot causes autism, or raises a child\u2019s risk of it.',
+          '<strong>What the evidence shows:</strong> This is the most studied \u2014 and most thoroughly disproven \u2014 vaccine claim in history. It traces back to a single 1998 paper by Andrew Wakefield built on just 12 children, later <strong>retracted</strong> and found to be deliberate fraud (see the Vaccine History module). Since then, researchers have looked for a link in <strong>millions</strong> of children and found none. A Danish study followed <strong>657,461</strong> children and found MMR did <em>not</em> increase autism risk \u2014 not even among children with autistic siblings or other risk factors.',
+          'The autism myth survives partly because of timing, not biology: the first MMR dose is given around 12\u201315 months, which is also when the earliest signs of autism tend to become noticeable. Two things happening around the same age is a <strong>coincidence of timing, not cause and effect</strong>. Study after study, across different countries and designs, keeps landing on the same answer: the vaccine does not cause autism.',
+          '<strong>A note on the CDC\u2019s website.</strong> In November 2025, the CDC changed its long-standing \u201cvaccines do not cause autism\u201d page to say that statement is \u201cnot an evidence-based claim.\u201d It is important to be clear about what did and did not happen here: <strong>no new study changed the science.</strong> This was a change in <em>wording on a government website</em>, driven by policy, not by new evidence. The large, high-quality studies described above still stand. When you see this cited, remember the difference between a political edit to a webpage and the actual body of research \u2014 which has not changed.'
+        ],
+        img: {
+          src: 'assets/module-myths.png',
+          alt: 'Illustration of herd immunity: rings of vaccinated people (green) surrounding and protecting vulnerable individuals (orange), blocking chains of disease transmission',
+          caption: 'Herd immunity: when enough people are protected (green), the virus cannot find a path to those who cannot be vaccinated (orange). Illustration.'
+        }
+      },
+      {
+        h: 'Myth 2: \u201cCatching measles naturally is better than the vaccine.\u201d',
+        p: [
+          '<strong>The claim:</strong> A real infection gives stronger, more \u201cnatural\u201d immunity than a shot, so it is healthier to just get measles.',
+          '<strong>What the evidence shows:</strong> Measles does not simply teach your immune system and leave. It actively <strong>damages</strong> it. In a process called <strong>immune amnesia</strong>, the virus destroys immune cells that hold your memory of past infections \u2014 erasing <strong>11\u201373%</strong> of the antibodies you had built up against <em>other</em> diseases. For up to two to three years afterward, a child who \u201cgot it over with\u201d can be newly vulnerable to illnesses they were already protected against.',
+          'And that is the <em>best</em> case. \u201cGetting it naturally\u201d also means risking pneumonia (the most common cause of measles death in children), brain swelling (encephalitis) that can cause permanent disability, and \u2014 years later \u2014 a rare, always-fatal brain disease called <strong>SSPE</strong>. The vaccine trains the same immune response <em>without</em> the immune-erasing damage and without those risks. Natural infection is not a stronger version of the vaccine; it is the disease, with all of its dangers.'
+        ]
+      },
+      {
+        h: 'Myth 3: \u201cMeasles isn\u2019t serious \u2014 it\u2019s just a rash.\u201d',
+        p: [
+          '<strong>The claim:</strong> Measles is a mild childhood illness, like a cold with spots. People \u201cused to just get it.\u201d',
+          '<strong>What the evidence shows:</strong> Measles is one of the most dangerous of the common childhood infections. About <strong>1 in 5</strong> unvaccinated people who get measles in the U.S. are hospitalized. Roughly <strong>1 in 20</strong> children develop pneumonia, about <strong>1 in 1,000</strong> develop brain-swelling encephalitis, and <strong>1 to 3 in 1,000</strong> die \u2014 even with modern care.',
+          'It felt \u201croutine\u201d in the past only because it was so common that the harm was spread across millions of cases and simply accepted as normal. Before the vaccine, measles killed thousands of Americans a year. The 83 deaths in Samoa in 2019 \u2014 87% of them children under five \u2014 are what \u201cjust a rash\u201d looks like when it sweeps through an under-vaccinated population (see the Samoa module).'
+        ]
+      },
+      {
+        h: 'Myth 4: \u201cThe vaccine is full of toxins.\u201d',
+        p: [
+          '<strong>The claim:</strong> The MMR shot contains dangerous ingredients \u2014 mercury, aluminum, formaldehyde, or \u201cfetal cells.\u201d',
+          '<strong>What the evidence shows:</strong> Let\u2019s take these one at a time, because the specifics matter. <strong>Mercury (thimerosal):</strong> the MMR vaccine has never contained thimerosal at all \u2014 it is a live vaccine that cannot use that kind of preservative. <strong>Aluminum:</strong> MMR contains <em>no</em> aluminum adjuvant either.',
+          '<strong>\u201cFetal cells\u201d:</strong> the rubella part of MMR is grown using a cell line originally derived from tissue in the 1960s, but the vaccine does <em>not</em> contain fetal cells \u2014 the cells are a factory, not an ingredient, and are purified out. <strong>Formaldehyde:</strong> where trace amounts appear in vaccines generally, they are far smaller than the amount your own body <em>makes and carries naturally</em> at all times as part of normal metabolism.',
+          'The deeper point is the oldest rule in toxicology: <strong>the dose makes the poison</strong>. Water, salt, and oxygen are all lethal at the wrong dose and harmless at the right one. A scary-sounding ingredient name tells you nothing without the amount \u2014 and for the MMR vaccine, the amounts are trivial or the ingredient is simply not there.'
+        ]
+      },
+      {
+        h: 'Myth 5: \u201cMeasles is gone, so we don\u2019t need the vaccine anymore.\u201d',
+        p: [
+          '<strong>The claim:</strong> Measles was eliminated decades ago, so continuing to vaccinate is unnecessary.',
+          '<strong>What the evidence shows:</strong> \u201cElimination\u201d is not \u201ceradication.\u201d When the U.S. declared measles eliminated in 2000, it meant the virus was no longer <em>constantly circulating</em> here \u2014 not that it was gone from the world. Measles is still common in many countries, and it arrives on airplanes constantly. The only reason it usually does not spread after it lands is that most people around the traveler are vaccinated.',
+          'When that protection slips, measles comes roaring back \u2014 fast. The <strong>2025 U.S. outbreak</strong> was the worst since 1992, with thousands of cases and the first U.S. child measles deaths in over two decades, overwhelmingly among the unvaccinated. The vaccine is not a relic of a solved problem; it is the thing that <em>keeps</em> the problem solved.'
+        ]
+      },
+      {
+        h: 'Myth 6: \u201cEveryone else is vaccinated, so my child doesn\u2019t need to be.\u201d',
+        p: [
+          '<strong>The claim:</strong> Because vaccination rates are high, an individual unvaccinated child is safe \u2014 protected by everyone else.',
+          '<strong>What the evidence shows:</strong> This is a bet against math. Measles is <em>so</em> contagious \u2014 one case can infect 12 to 18 susceptible people \u2014 that about <strong>95%</strong> of a community must be immune to stop it from spreading. That high threshold, called <strong>herd immunity</strong>, exists to protect the people who genuinely <em>cannot</em> be vaccinated: newborns too young for the shot, people with weakened immune systems, and those undergoing cancer treatment.',
+          'Every family that chooses to \u201cride on\u201d others\u2019 vaccination chips away at that shared wall. Herd immunity is not a resource you can quietly draw down without cost \u2014 it is a threshold, and once a community drops below it, the protection collapses for everyone at once. In an outbreak, it is precisely the unvaccinated who are infected first and hit hardest.'
+        ]
+      },
+      {
+        h: 'Myth 7: \u201cThe vaccine doesn\u2019t really work \u2014 vaccinated people still get measles.\u201d',
+        p: [
+          '<strong>The claim:</strong> Since some vaccinated people catch measles, the vaccine must not work.',
+          '<strong>What the evidence shows:</strong> Two doses of MMR are about <strong>97%</strong> effective \u2014 among the most effective vaccines ever made \u2014 and that protection lasts for decades, likely for life. But 97% is not 100%, so in a large outbreak you will still see a small number of vaccinated cases. That is expected, and it does not mean the vaccine failed.',
+          'Here is the trap in the reasoning. Imagine a school where 95% of students are vaccinated. If measles sweeps through, the vaccinated group is so much larger that its <em>tiny</em> failure rate can still produce a handful of cases \u2014 while the small unvaccinated group is devastated. Counting raw cases without accounting for how many people were in each group (the \u201cbase rate\u201d) makes a highly protective vaccine look weak. When you calculate the <em>risk per person</em>, the unvaccinated are many times more likely to be infected \u2014 and far more likely to be hospitalized or to die.'
+        ]
+      },
+      {
+        h: 'Myth 8: \u201cIt was better hygiene and nutrition \u2014 not the vaccine \u2014 that ended measles.\u201d',
+        p: [
+          '<strong>The claim:</strong> Measles was already fading thanks to cleaner water, better food, and modern sanitation; the vaccine just took the credit.',
+          '<strong>What the evidence shows:</strong> Sanitation and nutrition genuinely reduced deaths from many diseases \u2014 but the timing here gives the game away. In the U.S., there were still hundreds of thousands of measles cases every year right up to <strong>1963</strong>, long after clean water and modern nutrition were widespread. Then the vaccine arrived, and cases fell by <strong>more than 97%</strong> within a few years.',
+          'Measles does not spread through dirty water or poor diet \u2014 it spreads through the air, and even the cleanest, best-fed societies could not stop it until they had a vaccine. The near-vertical drop that lines up precisely with the vaccine\u2019s introduction \u2014 not a gradual decline over the decades of sanitation improvements before it \u2014 is exactly what you would expect if the vaccine, and only the vaccine, was the cause.'
+        ]
+      },
+      {
+        h: 'How to spot a measles myth',
+        p: [
+          'You will meet new claims that are not on this list. Here is a short checklist you can apply to any of them:',
+          '<strong>1. One study vs. many.</strong> A single small paper (like Wakefield\u2019s 12 children) is a starting point, not a conclusion. Trust the <em>weight</em> of many large studies over one dramatic outlier.',
+          '<strong>2. Timing is not cause.</strong> Two things happening around the same age (a shot and a diagnosis) does not mean one caused the other. Ask whether anyone has actually tested for a real link.',
+          '<strong>3. The dose makes the poison.</strong> A scary ingredient name means nothing without the amount. Ask \u201chow much?\u201d before you ask \u201cwhat\u2019s in it?\u201d',
+          '<strong>4. Mind the base rate.</strong> \u201cMost cases were vaccinated\u201d can be true and meaningless if almost everyone is vaccinated. Always ask about risk <em>per person</em>, not raw counts.',
+          '<strong>5. Check who benefits and what changed.</strong> A change in wording on a website is not a change in the evidence. Follow the claim back to the actual research \u2014 and ask whether a real study, or just an opinion, is behind it.'
+        ]
+      }
+    ],
+    keyFacts: [
+      'The MMR\u2013autism claim has been tested in <strong>millions</strong> of children \u2014 including a Danish study of <strong>657,461</strong> \u2014 and no link has ever been found. <strong>MMR does not cause autism.</strong>',
+      'The CDC\u2019s November 2025 webpage change was a <strong>policy/wording decision, not new science</strong> \u2014 the underlying studies are unchanged.',
+      '\u201cNatural\u201d measles causes <strong>immune amnesia</strong>, erasing 11\u201373% of existing antibodies \u2014 the vaccine trains immunity <em>without</em> that damage.',
+      'MMR contains <strong>no thimerosal and no aluminum</strong>; \u201cfetal cells\u201d and \u201cformaldehyde\u201d claims collapse once you look at the actual amounts.',
+      'Two doses of MMR are about <strong>97% effective</strong>; a small number of vaccinated cases in an outbreak is expected and does not mean the vaccine failed.',
+      'Measles is <strong>eliminated, not eradicated</strong> \u2014 it returns fast wherever coverage drops below the ~95% herd-immunity threshold.'
+    ],
+    sources: [
+      { t: 'Hviid et al., Annals of Internal Medicine (2019) \u2014 657,461-child cohort, no MMR\u2013autism link', u: 'https://www.acpjournals.org/doi/10.7326/M18-2101' },
+      { t: 'CDC \u2014 Autism and Vaccines', u: 'https://www.cdc.gov/vaccine-safety/about/autism.html' },
+      { t: 'Mina et al., Science (2019) \u2014 measles immune amnesia', u: 'https://www.science.org/doi/10.1126/science.aay6485' },
+      { t: 'CDC \u2014 Measles Complications', u: 'https://www.cdc.gov/measles/symptoms/complications.html' },
+      { t: 'CDC \u2014 Vaccine Ingredients (thimerosal, aluminum, formaldehyde)', u: 'https://www.cdc.gov/vaccine-safety/about/ingredients.html' },
+      { t: 'CHOP Vaccine Education Center \u2014 vaccine ingredients and the dose-makes-the-poison principle', u: 'https://www.chop.edu/vaccine-education-center/vaccine-ingredients' },
+      { t: 'WHO \u2014 Measles Fact Sheet', u: 'https://www.who.int/news-room/fact-sheets/detail/measles' },
+      { t: 'CDC \u2014 Measles Cases and Outbreaks (2025)', u: 'https://www.cdc.gov/measles/data-research/index.html' },
+      { t: 'BMJ (2011) \u2014 Wakefield\u2019s article was fraudulent', u: 'https://www.bmj.com/content/342/bmj.c7452' }
+    ]
   }
 ];
 
 /* ---- Quizzes: keyed by module id ---- */
 const QUIZZES = {
+  myths: [
+    {
+      q: 'What is the strongest evidence against the MMR\u2013autism claim?',
+      options: ['Studies of millions of children \u2014 including a Danish cohort of 657,461 \u2014 found no link', 'A single small study of 12 children', 'The vaccine was never actually studied', 'Doctors simply agreed to stop discussing it'],
+      correct: 0,
+      why: 'The claim has been tested repeatedly in very large populations, including a 657,461-child Danish study, with no increased autism risk found \u2014 even in high-risk subgroups. The original 12-child paper was retracted as fraudulent.'
+    },
+    {
+      q: 'The CDC changed its autism-vaccine webpage wording in November 2025. What did that change represent?',
+      options: ['A policy/wording decision, not a new scientific finding', 'A large new study proving vaccines cause autism', 'The retraction of all prior vaccine research', 'A correction of a math error in earlier studies'],
+      correct: 0,
+      why: 'No new study changed the science. It was a change in wording on a government website, driven by policy \u2014 the large, high-quality studies finding no link still stand.'
+    },
+    {
+      q: 'Why is catching measles \u201cnaturally\u201d not better than the vaccine?',
+      options: ['Measles causes immune amnesia, erasing 11\u201373% of existing antibodies, plus risks like pneumonia and SSPE', 'Natural infection gives no immunity at all', 'The vaccine is actually the same as being infected', 'Natural measles is completely harmless'],
+      correct: 0,
+      why: 'Measles actively damages the immune system (immune amnesia) and carries serious risks. The vaccine trains the same immunity without the disease\u2019s harms.'
+    },
+    {
+      q: 'Which statement about MMR ingredients is correct?',
+      options: ['MMR contains no thimerosal and no aluminum', 'MMR is preserved with mercury', 'MMR contains large amounts of aluminum', 'MMR contains living fetal cells as an active ingredient'],
+      correct: 0,
+      why: 'The MMR vaccine has never contained thimerosal (it is a live vaccine) and has no aluminum adjuvant. \u201cFetal cells\u201d are a manufacturing tool that is purified out, not an ingredient.'
+    },
+    {
+      q: 'In a highly vaccinated community, why can \u201cmost cases were vaccinated\u201d still be misleading?',
+      options: ['Because of the base rate \u2014 the vaccinated group is far larger, so even a tiny failure rate can outnumber the small unvaccinated group', 'Because the vaccine makes people more likely to catch measles', 'Because vaccinated people are never counted correctly', 'Because measles only infects vaccinated people'],
+      correct: 0,
+      why: 'When almost everyone is vaccinated, a 3% failure rate in a huge group can produce more raw cases than a devastated small unvaccinated group. Risk per person still shows the unvaccinated are far more likely to be infected.'
+    }
+  ],
   samoa: [
     {
       q: 'Roughly how far did Samoa\u2019s first-dose MMR coverage fall by the end of 2018?',
@@ -655,5 +800,6 @@ const TIMELINE = [
   { year: '2019–20', era: true, title: 'Samoa: a place without vaccines', text: 'After MMR coverage collapsed to ~31%, a measles outbreak in Samoa caused 5,707 cases and 83 deaths — 87% in children under five — in a nation of ~200,000. See Module 7.', src: { t: 'The Lancet (2020)', u: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7255155/' } },
   { year: '2020', title: 'Measles origins pushed back', text: 'Düx et al. use a 1912 viral genome to estimate the measles–rinderpest divergence at least as far back as the 6th century BCE.', src: { t: 'Düx et al., Science (2020)', u: 'https://www.science.org/doi/10.1126/science.aba9411' } },
   { year: '2024', title: '59 million deaths averted', text: 'WHO estimates ~95,000 global measles deaths, with vaccination having averted nearly 59 million deaths since 2000; ~30 million infants remain under-protected.', src: { t: 'WHO Fact Sheet (Nov 2025)', u: 'https://www.who.int/news-room/fact-sheets/detail/measles' } },
-  { year: '2025', era: true, title: 'Largest U.S. resurgence since 1992', text: '2,288 confirmed cases across 45 jurisdictions, 48 outbreaks, and 3 deaths (including the first pediatric measles deaths since 2003); 93% of cases unvaccinated.', src: { t: 'CDC — Measles Cases and Outbreaks', u: 'https://www.cdc.gov/measles/data-research/index.html' } }
+  { year: '2025', era: true, title: 'Largest U.S. resurgence since 1992', text: '2,288 confirmed cases across 45 jurisdictions, 48 outbreaks, and 3 deaths (including the first pediatric measles deaths since 2003); 93% of cases unvaccinated.', src: { t: 'CDC — Measles Cases and Outbreaks', u: 'https://www.cdc.gov/measles/data-research/index.html' } },
+  { year: '2025', title: 'CDC autism-vaccine webpage altered', text: 'In November 2025 the CDC changed its long-standing "vaccines do not cause autism" page to call that statement "not an evidence-based claim." No new study prompted the change \u2014 it was a policy/wording decision. The large studies (including a 657,461-child Danish cohort) finding no link remain unchanged. See the Myths module.', src: { t: 'CDC — Autism and Vaccines', u: 'https://www.cdc.gov/vaccine-safety/about/autism.html' } }
 ];
